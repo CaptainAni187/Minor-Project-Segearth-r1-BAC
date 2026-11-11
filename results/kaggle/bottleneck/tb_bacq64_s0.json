@@ -1,0 +1,75 @@
+{
+ "name": "tb_bacq64_s0",
+ "kind": "bacq",
+ "tokens": 64,
+ "seed": 0,
+ "alpha": 0.5,
+ "rho": 0.5,
+ "decoder": "scatter",
+ "select": "saliency",
+ "gIoU": 0.4743277497463153,
+ "cIoU": 0.5424165263043187,
+ "minutes": 4.812971941630045,
+ "log": [
+  {
+   "step": 0,
+   "loss": 1.5781,
+   "sec": 1.1,
+   "alpha": 1.0
+  },
+  {
+   "step": 200,
+   "loss": 0.7621,
+   "sec": 33.7,
+   "alpha": 1.0
+  },
+  {
+   "step": 400,
+   "loss": 0.4147,
+   "sec": 66.1,
+   "alpha": 1.0
+  },
+  {
+   "step": 600,
+   "loss": 0.4672,
+   "sec": 97.3,
+   "alpha": 1.0
+  },
+  {
+   "step": 800,
+   "loss": 0.4877,
+   "sec": 129.8,
+   "alpha": 1.0
+  },
+  {
+   "step": 1000,
+   "loss": 0.6057,
+   "sec": 161.6,
+   "alpha": 1.0
+  },
+  {
+   "step": 1200,
+   "loss": 0.5127,
+   "sec": 193.3,
+   "alpha": 1.0
+  },
+  {
+   "step": 1400,
+   "loss": 0.4521,
+   "sec": 225.5,
+   "alpha": 1.0
+  },
+  {
+   "step": 1600,
+   "loss": 0.4511,
+   "sec": 257.5,
+   "alpha": 1.0
+  },
+  {
+   "step": 1775,
+   "loss": 0.5687,
+   "sec": 285.5,
+   "alpha": 1.0
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "uniform16",
+  "kind": "uniform",
+  "tta": 1,
+  "num_tokens": 16,
+  "split": "val",
+  "n": 300,
+  "gIoU": 0.6879990709893594,
+  "cIoU": 0.6470820728984737,
+  "Pr@0.5": 0.76,
+  "Pr@0.6": 0.7033333333333334,
+  "Pr@0.7": 0.6433333333333333,
+  "Pr@0.8": 0.57,
+  "Pr@0.9": 0.34,
+  "latency_ms": 1643.3352919993922,
+  "prefill_GFLOPs": 381.668032512,
+  "connector_params_M": 99.950592,
+  "peak_mem_GB": 11.186192384,
+  "boundary_agreement": null
+}

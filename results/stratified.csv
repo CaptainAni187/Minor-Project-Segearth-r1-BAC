@@ -1,0 +1,541 @@
+name,axis,stratum,n,gIoU
+bac128,size,empty,4,0.25
+bac128,size,tiny (<4 cells),14,0.4555474229063093
+bac128,size,small (4-16),21,0.6017075832775269
+bac128,size,medium (16-64),84,0.6872460533366848
+bac128,size,large (>64),177,0.7259669280310113
+bac128,shape,irregular,99,0.7212918787994548
+bac128,shape,moderate,98,0.6561292798104653
+bac128,shape,compact,99,0.7023209342294473
+bac128,familiarity,empty,4,0.25
+bac128,familiarity,held-out (unseen in training),64,0.4089204527136081
+bac128,familiarity,seen in training,232,0.7718423661104137
+bac128,category,empty,4,0.25
+bac128,category,held-out: basketball court,15,0.49099655310884605
+bac128,category,held-out: island,11,0.32442240175635395
+bac128,category,held-out: lake,20,0.3121601896900664
+bac128,category,held-out: stadium,18,0.4996728035509446
+bac128,category,seen category,232,0.7718423661104137
+bac128,hallucination,empty target: predicted empty,4,0.25
+bac16,size,empty,4,0.5
+bac16,size,tiny (<4 cells),14,0.4354964766201663
+bac16,size,small (4-16),21,0.5997919832675013
+bac16,size,medium (16-64),84,0.6962137940912703
+bac16,size,large (>64),177,0.707043366680581
+bac16,shape,irregular,99,0.7199295326174313
+bac16,shape,moderate,98,0.6530957146542321
+bac16,shape,compact,99,0.6772203349716054
+bac16,familiarity,empty,4,0.5
+bac16,familiarity,held-out (unseen in training),64,0.37603309806164753
+bac16,familiarity,seen in training,232,0.7683409424632928
+bac16,category,empty,4,0.5
+bac16,category,held-out: basketball court,15,0.49293991692951983
+bac16,category,held-out: island,11,0.2387692201252101
+bac16,category,held-out: lake,20,0.29427379045043567
+bac16,category,held-out: stadium,18,0.4533379050898121
+bac16,category,seen category,232,0.7683409424632928
+bac16,hallucination,empty target: predicted empty,4,0.5
+bac32,size,empty,4,0.25
+bac32,size,tiny (<4 cells),14,0.44522965165802875
+bac32,size,small (4-16),21,0.603849334978374
+bac32,size,medium (16-64),84,0.696566774393476
+bac32,size,large (>64),177,0.70662607462326
+bac32,shape,irregular,99,0.7201748343344547
+bac32,shape,moderate,98,0.6479368480241365
+bac32,shape,compact,99,0.6838722798954634
+bac32,familiarity,empty,4,0.25
+bac32,familiarity,held-out (unseen in training),64,0.374955405281611
+bac32,familiarity,seen in training,232,0.7694022822288972
+bac32,category,empty,4,0.25
+bac32,category,held-out: basketball court,15,0.4937655975456326
+bac32,category,held-out: island,11,0.2369405372658705
+bac32,category,held-out: lake,20,0.2864341068206285
+bac32,category,held-out: stadium,18,0.4586463293611927
+bac32,category,seen category,232,0.7694022822288972
+bac32,hallucination,empty target: predicted empty,4,0.25
+bac64_lam0,size,empty,4,0.25
+bac64_lam0,size,tiny (<4 cells),14,0.4469613410092525
+bac64_lam0,size,small (4-16),21,0.6014921261280044
+bac64_lam0,size,medium (16-64),84,0.686136030097689
+bac64_lam0,size,large (>64),177,0.7199285257006086
+bac64_lam0,shape,irregular,99,0.7204944782792975
+bac64_lam0,shape,moderate,98,0.6456770067966908
+bac64_lam0,shape,compact,99,0.7004673634778291
+bac64_lam0,familiarity,empty,4,0.25
+bac64_lam0,familiarity,held-out (unseen in training),64,0.3911081903693796
+bac64_lam0,familiarity,seen in training,232,0.7712096759327195
+bac64_lam0,category,empty,4,0.25
+bac64_lam0,category,held-out: basketball court,15,0.4896950009939341
+bac64_lam0,category,held-out: island,11,0.2395433010007931
+bac64_lam0,category,held-out: lake,20,0.30466480511888483
+bac64_lam0,category,held-out: stadium,18,0.49762370863027017
+bac64_lam0,category,seen category,232,0.7712096759327195
+bac64_lam0,hallucination,empty target: predicted empty,4,0.25
+bac64_learned,size,empty,4,0.25
+bac64_learned,size,tiny (<4 cells),14,0.4403026292341639
+bac64_learned,size,small (4-16),21,0.6014565193545085
+bac64_learned,size,medium (16-64),84,0.6969977531935074
+bac64_learned,size,large (>64),177,0.7148974712343801
+bac64_learned,shape,irregular,99,0.721299792487969
+bac64_learned,shape,moderate,98,0.6535648179978674
+bac64_learned,shape,compact,99,0.6911258158824539
+bac64_learned,familiarity,empty,4,0.25
+bac64_learned,familiarity,held-out (unseen in training),64,0.38255455883774175
+bac64_learned,familiarity,seen in training,232,0.7732586018398593
+bac64_learned,category,empty,4,0.25
+bac64_learned,category,held-out: basketball court,15,0.49162369668050926
+bac64_learned,category,held-out: island,11,0.23951128690626725
+bac64_learned,category,held-out: lake,20,0.30407590579198807
+bac64_learned,category,held-out: stadium,18,0.4662774468666185
+bac64_learned,category,seen category,232,0.7732586018398593
+bac64_learned,hallucination,empty target: predicted empty,4,0.25
+bac64_nonms,size,empty,4,0.25
+bac64_nonms,size,tiny (<4 cells),14,0.4613634365970142
+bac64_nonms,size,small (4-16),21,0.5855284642853528
+bac64_nonms,size,medium (16-64),84,0.6863898266077312
+bac64_nonms,size,large (>64),177,0.7087325744520684
+bac64_nonms,shape,irregular,99,0.7197372266560039
+bac64_nonms,shape,moderate,98,0.6461174601838333
+bac64_nonms,shape,compact,99,0.6796373781662232
+bac64_nonms,familiarity,empty,4,0.25
+bac64_nonms,familiarity,held-out (unseen in training),64,0.37844771636966956
+bac64_nonms,familiarity,seen in training,232,0.765676478998954
+bac64_nonms,category,empty,4,0.25
+bac64_nonms,category,held-out: basketball court,15,0.49039079211701925
+bac64_nonms,category,held-out: island,11,0.2394663007237915
+bac64_nonms,category,held-out: lake,20,0.3049651397305238
+bac64_nonms,category,held-out: stadium,18,0.4517422146295213
+bac64_nonms,category,seen category,232,0.765676478998954
+bac64_nonms,hallucination,empty target: predicted empty,4,0.25
+bac64_nope,size,empty,4,0.25
+bac64_nope,size,tiny (<4 cells),14,0.44038787583143174
+bac64_nope,size,small (4-16),21,0.6001932821251997
+bac64_nope,size,medium (16-64),84,0.6957035703376439
+bac64_nope,size,large (>64),177,0.719119748009145
+bac64_nope,shape,irregular,99,0.7203506073338399
+bac64_nope,shape,moderate,98,0.6539754348959619
+bac64_nope,shape,compact,99,0.6978634519837931
+bac64_nope,familiarity,empty,4,0.25
+bac64_nope,familiarity,held-out (unseen in training),64,0.38937457522925595
+bac64_nope,familiarity,seen in training,232,0.7740207399895586
+bac64_nope,category,empty,4,0.25
+bac64_nope,category,held-out: basketball court,15,0.49183558145595574
+bac64_nope,category,held-out: island,11,0.23979226352303387
+bac64_nope,category,held-out: lake,20,0.3070205084264742
+bac64_nope,category,held-out: stadium,18,0.4869063347527882
+bac64_nope,category,seen category,232,0.7740207399895586
+bac64_nope,hallucination,empty target: predicted empty,4,0.25
+bac64_rho25,size,empty,4,0.25
+bac64_rho25,size,tiny (<4 cells),14,0.4538011244543814
+bac64_rho25,size,small (4-16),21,0.6028065817737746
+bac64_rho25,size,medium (16-64),84,0.6863454350055634
+bac64_rho25,size,large (>64),177,0.7187646138602416
+bac64_rho25,shape,irregular,99,0.7217301504599252
+bac64_rho25,shape,moderate,98,0.6433696940038287
+bac64_rho25,shape,compact,99,0.700858507529625
+bac64_rho25,familiarity,empty,4,0.25
+bac64_rho25,familiarity,held-out (unseen in training),64,0.3932500978661257
+bac64_rho25,familiarity,seen in training,232,0.7703383659047786
+bac64_rho25,category,empty,4,0.25
+bac64_rho25,category,held-out: basketball court,15,0.48920674777110285
+bac64_rho25,category,held-out: island,11,0.23939917768097158
+bac64_rho25,category,held-out: lake,20,0.30157624597734056
+bac64_rho25,category,held-out: stadium,18,0.5091660651571114
+bac64_rho25,category,seen category,232,0.7703383659047786
+bac64_rho25,hallucination,empty target: predicted empty,4,0.25
+bac64_rho75,size,empty,4,0.25
+bac64_rho75,size,tiny (<4 cells),14,0.4458782748796975
+bac64_rho75,size,small (4-16),21,0.5967128515364666
+bac64_rho75,size,medium (16-64),84,0.6942002150027828
+bac64_rho75,size,large (>64),177,0.7299398656476644
+bac64_rho75,shape,irregular,99,0.7205475570369205
+bac64_rho75,shape,moderate,98,0.6708159811642165
+bac64_rho75,shape,compact,99,0.6991036940374098
+bac64_rho75,familiarity,empty,4,0.25
+bac64_rho75,familiarity,held-out (unseen in training),64,0.4205733024610943
+bac64_rho75,familiarity,seen in training,232,0.7731411579868185
+bac64_rho75,category,empty,4,0.25
+bac64_rho75,category,held-out: basketball court,15,0.4894475336054595
+bac64_rho75,category,held-out: island,11,0.3218549024776059
+bac64_rho75,category,held-out: lake,20,0.34374324645644794
+bac64_rho75,category,held-out: stadium,18,0.5088727498358622
+bac64_rho75,category,seen category,232,0.7731411579868185
+bac64_rho75,hallucination,empty target: predicted empty,4,0.25
+bac64_sobel,size,empty,4,0.25
+bac64_sobel,size,tiny (<4 cells),14,0.4524334387068047
+bac64_sobel,size,small (4-16),21,0.596561738816755
+bac64_sobel,size,medium (16-64),84,0.6859539887120197
+bac64_sobel,size,large (>64),177,0.7110738215109288
+bac64_sobel,shape,irregular,99,0.7217428137477059
+bac64_sobel,shape,moderate,98,0.6452445014024101
+bac64_sobel,shape,compact,99,0.6833895597760817
+bac64_sobel,familiarity,empty,4,0.25
+bac64_sobel,familiarity,held-out (unseen in training),64,0.3857285957817483
+bac64_sobel,familiarity,seen in training,232,0.7657561895959452
+bac64_sobel,category,empty,4,0.25
+bac64_sobel,category,held-out: basketball court,15,0.489784634169174
+bac64_sobel,category,held-out: island,11,0.2395357457252829
+bac64_sobel,category,held-out: lake,20,0.3038785877918887
+bac64_sobel,category,held-out: stadium,18,0.4792997588154663
+bac64_sobel,category,seen category,232,0.7657561895959452
+bac64_sobel,hallucination,empty target: predicted empty,4,0.25
+bac64,size,empty,4,0.25
+bac64,size,tiny (<4 cells),14,0.46328521629039127
+bac64,size,small (4-16),21,0.6003239483396388
+bac64,size,medium (16-64),84,0.6859844511193149
+bac64,size,large (>64),177,0.7178411174815109
+bac64,shape,irregular,99,0.7218415278633755
+bac64,shape,moderate,98,0.645102376099551
+bac64,shape,compact,99,0.6978891264163392
+bac64,familiarity,empty,4,0.25
+bac64,familiarity,held-out (unseen in training),64,0.39077020910825
+bac64,familiarity,seen in training,232,0.7705348027953438
+bac64,category,empty,4,0.25
+bac64,category,held-out: basketball court,15,0.48979730856205317
+bac64,category,held-out: island,11,0.23971584230715146
+bac64,category,held-out: lake,20,0.30532987463818434
+bac64,category,held-out: stadium,18,0.495492333130825
+bac64,category,seen category,232,0.7705348027953438
+bac64,hallucination,empty target: predicted empty,4,0.25
+dproj,size,empty,4,0.25
+dproj,size,tiny (<4 cells),14,0.45428620412156423
+dproj,size,small (4-16),21,0.5984137286633301
+dproj,size,medium (16-64),84,0.6963201198651027
+dproj,size,large (>64),177,0.7205111891895348
+dproj,shape,irregular,99,0.7212210444219581
+dproj,shape,moderate,98,0.6558374658656221
+dproj,shape,compact,99,0.699748592547912
+dproj,familiarity,empty,4,0.25
+dproj,familiarity,held-out (unseen in training),64,0.4119004068662683
+dproj,familiarity,seen in training,232,0.7697691365319265
+dproj,category,empty,4,0.25
+dproj,category,held-out: basketball court,15,0.36848093331965237
+dproj,category,held-out: island,11,0.410101058699437
+dproj,category,held-out: lake,20,0.34628624323926277
+dproj,category,held-out: stadium,18,0.5220875293981848
+dproj,category,seen category,232,0.7697691365319265
+dproj,hallucination,empty target: predicted empty,4,0.25
+dproj_zero,size,empty,4,0.25
+dproj_zero,size,tiny (<4 cells),14,0.4538509297814589
+dproj_zero,size,small (4-16),21,0.597655828965072
+dproj_zero,size,medium (16-64),84,0.6964683615319461
+dproj_zero,size,large (>64),177,0.7265208977338504
+dproj_zero,shape,irregular,99,0.7214750109923986
+dproj_zero,shape,moderate,98,0.666383317646017
+dproj_zero,shape,compact,99,0.6997033886386342
+dproj_zero,familiarity,empty,4,0.25
+dproj_zero,familiarity,held-out (unseen in training),64,0.42609945191660437
+dproj_zero,familiarity,seen in training,232,0.7703959559056864
+dproj_zero,category,empty,4,0.25
+dproj_zero,category,held-out: basketball court,15,0.4252786020029368
+dproj_zero,category,held-out: island,11,0.4098804642840358
+dproj_zero,category,held-out: lake,20,0.3482061597764204
+dproj_zero,category,held-out: stadium,18,0.5232431994425458
+dproj_zero,category,seen category,232,0.7703959559056864
+dproj_zero,hallucination,empty target: predicted empty,4,0.25
+dproj_zero_wrongq,size,empty,4,0.5
+dproj_zero_wrongq,size,tiny (<4 cells),14,0.3191347333646924
+dproj_zero_wrongq,size,small (4-16),21,0.5259852121183671
+dproj_zero_wrongq,size,medium (16-64),84,0.5866811177203876
+dproj_zero_wrongq,size,large (>64),177,0.6911111457101855
+dproj_zero_wrongq,shape,irregular,99,0.6045694672976317
+dproj_zero_wrongq,shape,moderate,98,0.632530599393505
+dproj_zero_wrongq,shape,compact,99,0.6594049131088664
+dproj_zero_wrongq,familiarity,empty,4,0.5
+dproj_zero_wrongq,familiarity,held-out (unseen in training),64,0.48635420717482053
+dproj_zero_wrongq,familiarity,seen in training,232,0.6723913497483547
+dproj_zero_wrongq,category,empty,4,0.5
+dproj_zero_wrongq,category,held-out: basketball court,15,0.6730118331666876
+dproj_zero_wrongq,category,held-out: island,11,0.5904929347166447
+dproj_zero_wrongq,category,held-out: lake,20,0.3092670717189824
+dproj_zero_wrongq,category,held-out: stadium,18,0.46392933585697005
+dproj_zero_wrongq,category,seen category,232,0.6723913497483547
+dproj_zero_wrongq,hallucination,empty target: predicted empty,4,0.5
+none_tta2,size,empty,4,0.5
+none_tta2,size,tiny (<4 cells),14,0.5068429456427819
+none_tta2,size,small (4-16),21,0.6089500778253037
+none_tta2,size,medium (16-64),84,0.6909188643610041
+none_tta2,size,large (>64),177,0.7133071992013147
+none_tta2,shape,irregular,99,0.7241684711492833
+none_tta2,shape,moderate,98,0.65174674601045
+none_tta2,shape,compact,99,0.6930550705604466
+none_tta2,familiarity,empty,4,0.5
+none_tta2,familiarity,held-out (unseen in training),64,0.37229572150467993
+none_tta2,familiarity,seen in training,232,0.777368041215465
+none_tta2,category,empty,4,0.5
+none_tta2,category,held-out: basketball court,15,0.4228918915736203
+none_tta2,category,held-out: island,11,0.26095218555330174
+none_tta2,category,held-out: lake,20,0.3163825002832109
+none_tta2,category,held-out: stadium,18,0.4603013197747042
+none_tta2,category,seen category,232,0.777368041215465
+none_tta2,hallucination,empty target: predicted empty,4,0.5
+none,size,empty,4,0.25
+none,size,tiny (<4 cells),14,0.4540565339665847
+none,size,small (4-16),21,0.6002761945377131
+none,size,medium (16-64),84,0.6879811978424192
+none,size,large (>64),177,0.7170690156317088
+none,shape,irregular,99,0.7205356704169351
+none,shape,moderate,98,0.6482731011316203
+none,shape,compact,99,0.6950548753962065
+none,familiarity,empty,4,0.25
+none,familiarity,held-out (unseen in training),64,0.3858367806730052
+none,familiarity,seen in training,232,0.7714684223419288
+none,category,empty,4,0.25
+none,category,held-out: basketball court,15,0.42526348306230727
+none,category,held-out: island,11,0.32293149367529356
+none,category,held-out: lake,20,0.31921571859183484
+none,category,held-out: stadium,18,0.46544671749293315
+none,category,seen category,232,0.7714684223419288
+none,hallucination,empty target: predicted empty,4,0.25
+pool128,size,empty,4,0.25
+pool128,size,tiny (<4 cells),14,0.46140654802801173
+pool128,size,small (4-16),21,0.599967452727992
+pool128,size,medium (16-64),84,0.685828036375748
+pool128,size,large (>64),177,0.7280747054437703
+pool128,shape,irregular,99,0.7218780420275243
+pool128,shape,moderate,98,0.6614157352205406
+pool128,shape,compact,99,0.6995264432974976
+pool128,familiarity,empty,4,0.25
+pool128,familiarity,held-out (unseen in training),64,0.4158151056208266
+pool128,familiarity,seen in training,232,0.7712311178407641
+pool128,category,empty,4,0.25
+pool128,category,held-out: basketball court,15,0.4900664956831107
+pool128,category,held-out: island,11,0.32416153887464294
+pool128,category,held-out: lake,20,0.33207103974930086
+pool128,category,held-out: stadium,18,0.5029984223266195
+pool128,category,seen category,232,0.7712311178407641
+pool128,hallucination,empty target: predicted empty,4,0.25
+pool16,size,empty,4,0.25
+pool16,size,tiny (<4 cells),14,0.453913646716019
+pool16,size,small (4-16),21,0.5995764071118759
+pool16,size,medium (16-64),84,0.6858303312700512
+pool16,size,large (>64),177,0.7304823260371337
+pool16,shape,irregular,99,0.7210954518701919
+pool16,shape,moderate,98,0.664646330860214
+pool16,shape,compact,99,0.700274999789704
+pool16,familiarity,empty,4,0.25
+pool16,familiarity,held-out (unseen in training),64,0.4205907625969015
+pool16,familiarity,seen in training,232,0.7712638203984007
+pool16,category,empty,4,0.25
+pool16,category,held-out: basketball court,15,0.49056276172428215
+pool16,category,held-out: island,11,0.32141172231549126
+pool16,category,held-out: lake,20,0.3468568172817349
+pool16,category,held-out: stadium,18,0.5048167827351311
+pool16,category,seen category,232,0.7712638203984007
+pool16,hallucination,empty target: predicted empty,4,0.25
+pool32,size,empty,4,0.25
+pool32,size,tiny (<4 cells),14,0.45203688750952065
+pool32,size,small (4-16),21,0.5991206476517237
+pool32,size,medium (16-64),84,0.6861330371332994
+pool32,size,large (>64),177,0.7277306579511574
+pool32,shape,irregular,99,0.721359213503587
+pool32,shape,moderate,98,0.6579390736093237
+pool32,shape,compact,99,0.7016258611293198
+pool32,familiarity,empty,4,0.25
+pool32,familiarity,held-out (unseen in training),64,0.4100031644770211
+pool32,familiarity,seen in training,232,0.7720402977406988
+pool32,category,empty,4,0.25
+pool32,category,held-out: basketball court,15,0.49027596685091884
+pool32,category,held-out: island,11,0.32301894825068644
+pool32,category,held-out: lake,20,0.30965817125909717
+pool32,category,held-out: stadium,18,0.5077606204347822
+pool32,category,seen category,232,0.7720402977406988
+pool32,hallucination,empty target: predicted empty,4,0.25
+pool64,size,empty,4,0.5
+pool64,size,tiny (<4 cells),14,0.45304365005710673
+pool64,size,small (4-16),21,0.5951812300310958
+pool64,size,medium (16-64),84,0.6864521107439314
+pool64,size,large (>64),177,0.7304571298421085
+pool64,shape,irregular,99,0.7215942998821658
+pool64,shape,moderate,98,0.6684616539562762
+pool64,shape,compact,99,0.6954265498984492
+pool64,familiarity,empty,4,0.5
+pool64,familiarity,held-out (unseen in training),64,0.4212166498802224
+pool64,familiarity,seen in training,232,0.7708467268261281
+pool64,category,empty,4,0.5
+pool64,category,held-out: basketball court,15,0.49137438196447286
+pool64,category,held-out: island,11,0.4100100397206768
+pool64,category,held-out: lake,20,0.30875340379602334
+pool64,category,held-out: stadium,18,0.49455951944551274
+pool64,category,seen category,232,0.7708467268261281
+pool64,hallucination,empty target: predicted empty,4,0.5
+random64,size,empty,4,0.25
+random64,size,tiny (<4 cells),14,0.4543959413902258
+random64,size,small (4-16),21,0.6003146981284143
+random64,size,medium (16-64),84,0.6858272958353897
+random64,size,large (>64),177,0.7246996386240118
+random64,shape,irregular,99,0.7204680219176947
+random64,shape,moderate,98,0.6601313641504832
+random64,shape,compact,99,0.6952552815170054
+random64,familiarity,empty,4,0.25
+random64,familiarity,held-out (unseen in training),64,0.4070826886154845
+random64,familiarity,seen in training,232,0.7706732269628952
+random64,category,empty,4,0.25
+random64,category,held-out: basketball court,15,0.48907286698083907
+random64,category,held-out: island,11,0.3242135500501307
+random64,category,held-out: lake,20,0.3283575678690597
+random64,category,held-out: stadium,18,0.4768721477080995
+random64,category,seen category,232,0.7706732269628952
+random64,hallucination,empty target: predicted empty,4,0.25
+released_tta2,size,empty,4,0.5
+released_tta2,size,tiny (<4 cells),14,0.5046184888830846
+released_tta2,size,small (4-16),21,0.6087917677380986
+released_tta2,size,medium (16-64),84,0.6910458067444724
+released_tta2,size,large (>64),177,0.7162958633248997
+released_tta2,shape,irregular,99,0.7247920267641388
+released_tta2,shape,moderate,98,0.6517661685144758
+released_tta2,shape,compact,99,0.6975152159377558
+released_tta2,familiarity,empty,4,0.5
+released_tta2,familiarity,held-out (unseen in training),64,0.37977386667970914
+released_tta2,familiarity,seen in training,232,0.7774826468724344
+released_tta2,category,empty,4,0.5
+released_tta2,category,held-out: basketball court,15,0.42285384659411684
+released_tta2,category,held-out: island,11,0.2676000618835519
+released_tta2,category,held-out: lake,20,0.3158723669403937
+released_tta2,category,held-out: stadium,18,0.48342620828126015
+released_tta2,category,seen category,232,0.7774826468724344
+released_tta2,hallucination,empty target: predicted empty,4,0.5
+released,size,empty,4,0.25
+released,size,tiny (<4 cells),14,0.4540775221271178
+released,size,small (4-16),21,0.5997285689124638
+released,size,medium (16-64),84,0.6912273450904733
+released,size,large (>64),177,0.7186366194155474
+released,shape,irregular,99,0.7203158365321543
+released,shape,moderate,98,0.6510646399918661
+released,shape,compact,99,0.6979551651030997
+released,familiarity,empty,4,0.25
+released,familiarity,held-out (unseen in training),64,0.3970561733872855
+released,familiarity,seen in training,232,0.7706964171737359
+released,category,empty,4,0.25
+released,category,held-out: basketball court,15,0.4251522385258494
+released,category,held-out: island,11,0.32327166866548346
+released,category,held-out: lake,20,0.33237822311885
+released,category,held-out: stadium,18,0.49059770562228977
+released,category,seen category,232,0.7706964171737359
+released,hallucination,empty target: predicted empty,4,0.25
+tome64,size,empty,4,0.25
+tome64,size,tiny (<4 cells),14,0.4531865756074091
+tome64,size,small (4-16),21,0.5973245115497955
+tome64,size,medium (16-64),84,0.6860483468654746
+tome64,size,large (>64),177,0.7280763473104134
+tome64,shape,irregular,99,0.7209766890686092
+tome64,shape,moderate,98,0.6613477350150752
+tome64,shape,compact,99,0.6989619309335634
+tome64,familiarity,empty,4,0.25
+tome64,familiarity,held-out (unseen in training),64,0.4147610591641386
+tome64,familiarity,seen in training,232,0.7708676449361535
+tome64,category,empty,4,0.25
+tome64,category,held-out: basketball court,15,0.49017864184818805
+tome64,category,held-out: island,11,0.32287031424026347
+tome64,category,held-out: lake,20,0.3299088476725843
+tome64,category,held-out: stadium,18,0.5023487638159703
+tome64,category,seen category,232,0.7708676449361535
+tome64,hallucination,empty target: predicted empty,4,0.25
+uniform16,size,empty,4,0.25
+uniform16,size,tiny (<4 cells),14,0.4478671043163227
+uniform16,size,small (4-16),21,0.5807826613071981
+uniform16,size,medium (16-64),84,0.6866039623353833
+uniform16,size,large (>64),177,0.7302735204110504
+uniform16,shape,irregular,99,0.7206129761605427
+uniform16,shape,moderate,98,0.6657468379172564
+uniform16,shape,compact,99,0.6951095610204343
+uniform16,familiarity,empty,4,0.25
+uniform16,familiarity,held-out (unseen in training),64,0.41039941943040664
+uniform16,familiarity,seen in training,232,0.7721299933330251
+uniform16,category,empty,4,0.25
+uniform16,category,held-out: basketball court,15,0.4942291955041431
+uniform16,category,held-out: island,11,0.322627391384809
+uniform16,category,held-out: lake,20,0.3360380447712718
+uniform16,category,held-out: stadium,18,0.4768034839069746
+uniform16,category,seen category,232,0.7721299933330251
+uniform16,hallucination,empty target: predicted empty,4,0.25
+uniform64,size,empty,4,0.25
+uniform64,size,tiny (<4 cells),14,0.4391864574774616
+uniform64,size,small (4-16),21,0.5972069515336806
+uniform64,size,medium (16-64),84,0.6869374531700605
+uniform64,size,large (>64),177,0.7199844438829563
+uniform64,shape,irregular,99,0.7209459241913094
+uniform64,shape,moderate,98,0.6568017633907922
+uniform64,shape,compact,99,0.6877750476083117
+uniform64,familiarity,empty,4,0.25
+uniform64,familiarity,held-out (unseen in training),64,0.3932730848221129
+uniform64,familiarity,seen in training,232,0.7700882396200212
+uniform64,category,empty,4,0.25
+uniform64,category,held-out: basketball court,15,0.485678834926308
+uniform64,category,held-out: island,11,0.32299452024711645
+uniform64,category,held-out: lake,20,0.3049447072769217
+uniform64,category,held-out: stadium,18,0.45735894647021624
+uniform64,category,seen category,232,0.7700882396200212
+uniform64,hallucination,empty target: predicted empty,4,0.25
+wrong_far,size,empty,4,0.25
+wrong_far,size,tiny (<4 cells),14,0.45407647625012776
+wrong_far,size,small (4-16),21,0.5997221618981352
+wrong_far,size,medium (16-64),84,0.6912243521719095
+wrong_far,size,large (>64),177,0.7186459309934432
+wrong_far,shape,irregular,99,0.720313365287975
+wrong_far,shape,moderate,98,0.6510786215882882
+wrong_far,shape,compact,99,0.6979563975402088
+wrong_far,familiarity,empty,4,0.25
+wrong_far,familiarity,held-out (unseen in training),64,0.39705665392381173
+wrong_far,familiarity,seen in training,232,0.770701662002235
+wrong_far,category,empty,4,0.25
+wrong_far,category,held-out: basketball court,15,0.42515393648161065
+wrong_far,category,held-out: island,11,0.3232603924572079
+wrong_far,category,held-out: lake,20,0.33238427218733685
+wrong_far,category,held-out: stadium,18,0.4905981690624314
+wrong_far,category,seen category,232,0.770701662002235
+wrong_far,hallucination,empty target: predicted empty,4,0.25
+wrong,size,empty,4,0.25
+wrong,size,tiny (<4 cells),14,0.45407679046480387
+wrong,size,small (4-16),21,0.5997269741843148
+wrong,size,medium (16-64),84,0.6912295816305831
+wrong,size,large (>64),177,0.7186451772666061
+wrong,shape,irregular,99,0.7203155684513983
+wrong,shape,moderate,98,0.6510801759467786
+wrong,shape,compact,99,0.6979568104854891
+wrong,familiarity,empty,4,0.25
+wrong,familiarity,held-out (unseen in training),64,0.39705374738615556
+wrong,familiarity,seen in training,232,0.7707042367449233
+wrong,category,empty,4,0.25
+wrong,category,held-out: basketball court,15,0.42515192053151657
+wrong,category,held-out: island,11,0.32328344429871547
+wrong,category,held-out: lake,20,0.33236876192564574
+wrong,category,held-out: stadium,18,0.49059266105235694
+wrong,category,seen category,232,0.7707042367449233
+wrong,hallucination,empty target: predicted empty,4,0.25
+wrongq,size,empty,4,0.5
+wrongq,size,tiny (<4 cells),14,0.3362063406283351
+wrongq,size,small (4-16),21,0.5596913949924469
+wrongq,size,medium (16-64),84,0.5944308074077088
+wrongq,size,large (>64),177,0.7034829524233617
+wrongq,shape,irregular,99,0.6305582871318127
+wrongq,shape,moderate,98,0.6408242510697371
+wrongq,shape,compact,99,0.6634649639791611
+wrongq,familiarity,empty,4,0.5
+wrongq,familiarity,held-out (unseen in training),64,0.48546835266481336
+wrongq,familiarity,seen in training,232,0.6889616547166921
+wrongq,category,empty,4,0.5
+wrongq,category,held-out: basketball court,15,0.7064614207498914
+wrongq,category,held-out: island,11,0.5903281631290102
+wrongq,category,held-out: lake,20,0.3282509192069673
+wrongq,category,held-out: stadium,18,0.41191250448562344
+wrongq,category,seen category,232,0.6889616547166921
+wrongq,hallucination,empty target: predicted empty,4,0.5
+zero,size,empty,4,0.25
+zero,size,tiny (<4 cells),14,0.45401757009542115
+zero,size,small (4-16),21,0.6002900186639069
+zero,size,medium (16-64),84,0.6916475676004001
+zero,size,large (>64),177,0.7247611093527261
+zero,shape,irregular,99,0.7205633987944735
+zero,shape,moderate,98,0.6630414450732635
+zero,shape,compact,99,0.6972687910031452
+zero,familiarity,empty,4,0.25
+zero,familiarity,held-out (unseen in training),64,0.4109341355137644
+zero,familiarity,seen in training,232,0.7717399298890654
+zero,category,empty,4,0.25
+zero,category,held-out: basketball court,15,0.48905151000662117
+zero,category,held-out: island,11,0.32344853464930234
+zero,category,held-out: lake,20,0.3335168387628845
+zero,category,held-out: stadium,18,0.48531896479897707
+zero,category,seen category,232,0.7717399298890654
+zero,hallucination,empty target: predicted empty,4,0.25

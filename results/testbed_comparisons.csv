@@ -1,0 +1,28 @@
+tokens,a,b,question,seeds_a,seeds_b,delta,lo,hi,significant,cross_hardware
+16,bac2,bac2_randsel,saliency vs random selection (core test of the boundary idea),3,3,0.86277642565445,0.09116625821234074,1.6709698449733663,True,False
+16,bac2,uniform,BAC-v2 vs the published strided conv,3,3,-1.9864983768332223,-3.178173397485013,-0.7703602896375835,True,False
+16,bacq,uniform,question-aware BAC vs strided conv,3,3,-1.6860208556806096,-2.785207716379302,-0.5279075946570164,True,True
+16,bacq,bac2,does question conditioning help?,3,3,0.30047752115261206,-0.43165611382414365,1.0650815696292617,False,True
+16,bacq,bac2_randsel,question-aware saliency vs random selection,3,3,1.163253946807062,0.41781353709648666,1.920308734597467,True,True
+16,bac2,pool,BAC-v2 vs average pooling,3,3,4.104187650893355,2.726992649033355,5.486021798628535,True,False
+16,bac,pool,proposed BAC vs average pooling,3,3,-4.8516613209579535,-6.098001374948913,-3.6092844316304413,True,False
+16,uniform,pool,learned vs fixed downsampling,3,3,6.090686027726576,4.617220263943636,7.616697150598786,True,False
+16,random,pool,random selection vs pooling,3,3,-6.464235863760831,-8.12947374295893,-4.754643658693756,True,True
+16,tome,pool,ToMe vs pooling,3,3,-9.724394387898288,-11.70628895365198,-7.687062156886021,True,True
+64,bac2,bac2_randsel,saliency vs random selection (core test of the boundary idea),3,3,0.7521425496775551,0.11608703849912559,1.3944895409168288,True,False
+64,bac2,uniform,BAC-v2 vs the published strided conv,3,3,-0.6862491856157925,-1.958914514599091,0.5516400318457371,False,False
+64,bacq,uniform,question-aware BAC vs strided conv,3,3,-0.8396229145990848,-2.3378015823662843,0.565814113924141,False,False
+64,bacq,bac2,does question conditioning help?,3,3,-0.15337372898329255,-0.9010515195509131,0.49873364805189796,False,False
+64,bacq,bac2_randsel,question-aware saliency vs random selection,3,3,0.5987688206942627,-0.1021018586906704,1.298903941635253,False,False
+64,bac2,pool,BAC-v2 vs average pooling,3,3,2.985693828051686,1.5032896734674484,4.374046429083484,True,False
+64,bac,pool,proposed BAC vs average pooling,3,3,-3.2448385844774648,-4.264820314472187,-2.243080431895531,True,False
+64,uniform,pool,learned vs fixed downsampling,3,3,3.671943013667478,2.4040250736135547,4.942589863328155,True,False
+64,random,pool,random selection vs pooling,3,3,-4.995544524147718,-6.578378185695306,-3.39125829352999,True,False
+64,tome,pool,ToMe vs pooling,3,3,-7.760720222904356,-9.534741010003808,-6.031696456883276,True,False
+32,bacq,uniform,budget curve,1,1,-0.3119709444263683,-2.188224502164088,1.4649250804060998,False,False
+32,bac2,uniform,budget curve,1,1,-0.8049681223673275,-2.5940355764186642,0.8984842207054224,False,False
+32,pool,uniform,budget curve,1,1,-4.604610231810063,-6.238136156671234,-3.0513261449712457,True,False
+128,bacq,uniform,budget curve,1,1,-0.3575759679656192,-1.7872563735001739,1.0416297751981562,False,False
+128,bac2,uniform,budget curve,1,1,-0.46113670738302803,-2.0271147465856143,0.9600618411542752,False,False
+128,pool,uniform,budget curve,1,1,-2.9093689522439057,-4.296387574764441,-1.5268440201056115,True,False
+1024,pool1024,uniform,headroom: no compression vs 64 strided-conv tokens,3,3,4.54924828429651,2.884144226808277,6.268535402907068,True,True

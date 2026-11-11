@@ -1,0 +1,272 @@
+[
+{
+"name": "0056",
+"raw": "```json\n{\n    \"bbox_2d\": [53, 189, 716, 580],\n    \"label\": \"solar panels\"\n}\n```",
+"box": [
+53.3505291005291,
+190.25,
+720.7354497354497,
+583.8359788359788
+],
+"label": "solar panels",
+"resized": [
+756,
+756
+]
+},
+{
+"name": "0731",
+"raw": "```json\n{\n  \"bbox_2d\": [108, 67, 409, 300],\n  \"label\": \"basketball court\"\n}\n```",
+"box": [
+61.714285714285715,
+38.285714285714285,
+233.71428571428572,
+171.42857142857142
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "0752",
+"raw": "```json\n{\n  \"bbox_2d\": [0, 0, 392, 392],\n  \"label\": \"basketball court\"\n}\n```",
+"box": [
+0.0,
+0.0,
+224.0,
+224.0
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "0783",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 134, 392, 335],\n    \"label\": \"basketball court\"\n}\n```",
+"box": [
+0.0,
+76.57142857142857,
+224.0,
+191.42857142857142
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "0880",
+"raw": "```json\n{\n    \"bbox_2d\": [137, 140, 315, 318], \n    \"label\": \"basketball court\"\n}\n```",
+"box": [
+78.28571428571429,
+80.0,
+180.0,
+181.71428571428572
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "0897",
+"raw": "```json\n{\n    \"bbox_2d\": [204, 53, 436, 478], \n    \"label\": \"hoop and ball\"\n}\n```",
+"box": [
+202.416149068323,
+53.378571428571426,
+432.6149068322981,
+481.4142857142857
+],
+"label": "hoop and ball",
+"resized": [
+560,
+644
+]
+},
+{
+"name": "1434",
+"raw": "```json\n{\n    \"bbox_2d\": [683, 709, 845, 820], \n    \"label\": \"historical religious location\"\n}\n```",
+"box": [
+717.15,
+744.45,
+887.25,
+861.0
+],
+"label": "historical religious location",
+"resized": [
+980,
+980
+]
+},
+{
+"name": "2428",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 895, 896],\n    \"label\": \"remote land forms completely encircled by water, typically sought after for relaxation and tranquility, and reachable mainly by boat\"\n}\n```",
+"box": [
+0.0,
+0.0,
+908.984375,
+910.0
+],
+"label": "remote land forms completely encircled by water, typically sought after for relaxation and tranquility, and reachable mainly by boat",
+"resized": [
+896,
+896
+]
+},
+{
+"name": "2454",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 154, 903, 706],\n    \"label\": \"island\"\n}\n```",
+"box": [
+0.0,
+163.9,
+961.05,
+751.3857142857142
+],
+"label": "island",
+"resized": [
+980,
+980
+]
+},
+{
+"name": "2566",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 476, 476],\n    \"label\": \"verdant landscape\"\n}\n```",
+"box": [
+0.0,
+0.0,
+472.0,
+472.0
+],
+"label": "verdant landscape",
+"resized": [
+476,
+476
+]
+},
+{
+"name": "2627",
+"raw": "```json\n{\n    \"bbox_2d\": [65, 174, 789, 653], \n    \"label\": \"water\"\n}\n```",
+"box": [
+63.916666666666664,
+171.1,
+775.85,
+642.1166666666667
+],
+"label": "water",
+"resized": [
+840,
+840
+]
+},
+{
+"name": "2647",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 978, 979],\n    \"label\": \"area\"\n}\n```",
+"box": [
+0.0,
+0.0,
+978.0,
+979.0
+],
+"label": "area",
+"resized": [
+980,
+980
+]
+},
+{
+"name": "2652",
+"raw": "```json\n{\n  \"bbox_2d\": [53, 304, 967, 710],\n  \"label\": \"pond\"\n}\n```",
+"box": [
+59.0030612244898,
+338.43265306122447,
+1076.527551020408,
+790.4183673469388
+],
+"label": "pond",
+"resized": [
+980,
+980
+]
+},
+{
+"name": "2670",
+"raw": "```json\n{\n    \"bbox_2d\": [304, 278, 439, 376], \n    \"label\": \"swimming pool\"\n}\n```",
+"box": [
+396.6829268292683,
+370.88018433179724,
+572.8414634146342,
+501.6221198156682
+],
+"label": "swimming pool",
+"resized": [
+868,
+1148
+]
+},
+{
+"name": "2682",
+"raw": "```json\n{\n    \"bbox_2d\": [350, 294, 546, 387],\n    \"label\": \"pond\"\n}\n```",
+"box": [
+351.61290322580646,
+288.75,
+548.516129032258,
+380.0892857142857
+],
+"label": "pond",
+"resized": [
+672,
+868
+]
+},
+{
+"name": "2692",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 1036, 700],\n    \"label\": \"water\"\n}\n```",
+"box": [
+0.0,
+0.0,
+1047.0,
+693.0
+],
+"label": "water",
+"resized": [
+700,
+1036
+]
+},
+{
+"name": "2701",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 1036, 672],\n    \"label\": \"water body\"\n}\n```",
+"box": [
+0.0,
+0.0,
+1025.0,
+659.0
+],
+"label": "water body",
+"resized": [
+672,
+1036
+]
+},
+{
+"name": "3762",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 952, 896],\n    \"label\": \"satellite image\"\n}\n```",
+"box": [
+0.0,
+0.0,
+960.0,
+899.0
+],
+"label": "satellite image",
+"resized": [
+896,
+952
+]
+}
+]

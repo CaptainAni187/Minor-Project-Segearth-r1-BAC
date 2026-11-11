@@ -1,0 +1,20 @@
+{
+  "name": "tome64",
+  "kind": "tome",
+  "tta": 1,
+  "num_tokens": 64,
+  "split": "val",
+  "n": 300,
+  "gIoU": 0.6879533380389748,
+  "cIoU": 0.6443739168312324,
+  "Pr@0.5": 0.76,
+  "Pr@0.6": 0.71,
+  "Pr@0.7": 0.64,
+  "Pr@0.8": 0.5633333333333334,
+  "Pr@0.9": 0.35333333333333333,
+  "latency_ms": 1699.6736669680104,
+  "prefill_GFLOPs": 501.029535744,
+  "connector_params_M": 2.103296,
+  "peak_mem_GB": 9.948807168,
+  "boundary_agreement": null
+}

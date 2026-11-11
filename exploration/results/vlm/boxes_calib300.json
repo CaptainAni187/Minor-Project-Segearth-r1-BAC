@@ -1,0 +1,152 @@
+[
+{
+"name": "0066",
+"raw": "```json\n{\n    \"bbox_2d\": [136, 174, 325, 330],\n    \"label\": \"wastewater treatment plant\"\n}\n```",
+"box": [
+138.15873015873015,
+176.76190476190476,
+330.1587301587302,
+335.23809523809524
+],
+"label": "wastewater treatment plant",
+"resized": [
+504,
+504
+]
+},
+{
+"name": "0755",
+"raw": "```json\n{\n    \"bbox_2d\": [160, 130, 448, 357],\n    \"label\": \"basketball court\"\n}\n```",
+"box": [
+91.42857142857143,
+74.28571428571429,
+256.0,
+204.0
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "0764",
+"raw": "```json\n{\n    \"bbox_2d\": [103, 119, 357, 298], \n    \"label\": \"basketball court\"\n}\n```",
+"box": [
+58.857142857142854,
+68.0,
+204.0,
+170.28571428571428
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "0768",
+"raw": "```json\n{\n  \"bbox_2d\": [0, 0, 448, 448],\n  \"label\": \"basketball court\"\n}\n```",
+"box": [
+0.0,
+0.0,
+256.0,
+256.0
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "0851",
+"raw": "```json\n{\n  \"bbox_2d\": [0, 98, 447, 365],\n  \"label\": \"basketball court\"\n}\n```",
+"box": [
+0.0,
+56.0,
+255.42857142857142,
+208.57142857142858
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "0869",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 392, 392],\n    \"label\": \"basketball court\"\n}\n```",
+"box": [
+0.0,
+0.0,
+224.0,
+224.0
+],
+"label": "basketball court",
+"resized": [
+448,
+448
+]
+},
+{
+"name": "2667",
+"raw": "```json\n{\n    \"bbox_2d\": [34, 65, 1018, 367],\n    \"label\": \"fish\"\n}\n```",
+"box": [
+34.0,
+65.0,
+1018.0,
+367.0
+],
+"label": "fish",
+"resized": [
+420,
+1064
+]
+},
+{
+"name": "2714",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 867, 812],\n    \"label\": \"water\"\n}\n```",
+"box": [
+0.0,
+0.0,
+866.0011520737327,
+806.0
+],
+"label": "water",
+"resized": [
+812,
+868
+]
+},
+{
+"name": "3480",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 952, 588],\n    \"label\": \"road\"\n}\n```",
+"box": [
+0.0,
+0.0,
+939.0,
+577.0
+],
+"label": "road",
+"resized": [
+588,
+952
+]
+},
+{
+"name": "3794",
+"raw": "```json\n{\n    \"bbox_2d\": [0, 0, 895, 644],\n    \"label\": \"major sports tournament\"\n}\n```",
+"box": [
+0.0,
+0.0,
+896.9977678571429,
+638.0
+],
+"label": "major sports tournament",
+"resized": [
+644,
+896
+]
+}
+]

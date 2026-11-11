@@ -1,0 +1,23 @@
+# Local material that is not part of the repository
+extras/
+
+# Python environments
+.venv/
+exploration/.venv-llm/
+exploration/.venv-vlm/
+
+# Downloaded weights and data, trained weights and large caches (see README)
+checkpoints/
+data/
+runs/
+exploration/ft_weights/
+exploration/results/logits/*.npz
+
+# Logs and build leftovers
+results/logs/
+exploration/logs/
+*.zip
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

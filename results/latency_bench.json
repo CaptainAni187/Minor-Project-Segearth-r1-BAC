@@ -1,0 +1,21 @@
+{
+ "released": {
+  "median_ms": 1964.067916967906,
+  "mean_ms": 1988.9525134821195
+ },
+ "none": {
+  "median_ms": 1861.0270420322195,
+  "mean_ms": 1881.4344335806784
+ },
+ "released_tta2": {
+  "median_ms": 3971.29183402285,
+  "mean_ms": 4023.0781623521016
+ },
+ "none_tta2": {
+  "median_ms": 3723.9466249011457,
+  "mean_ms": 3765.5260539361952
+ },
+ "speedup_none_vs_released": 1.0553677472752718,
+ "tta1_matches_predict": "40/40",
+ "n_timed": 37
+}

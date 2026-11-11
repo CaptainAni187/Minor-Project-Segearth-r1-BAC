@@ -1,0 +1,108 @@
+{
+ "plain/threshold": {
+  "setting": {
+   "t": 0
+  },
+  "calib_gain": 0.0,
+  "test_gIoU": 68.34,
+  "test_delta": 0.0,
+  "ci": [
+   0.0,
+   0.0
+  ]
+ },
+ "plain/fallback": {
+  "setting": {
+   "fallback": 4
+  },
+  "calib_gain": -0.24,
+  "test_gIoU": 68.12,
+  "test_delta": -0.23,
+  "ci": [
+   -0.95,
+   0.19
+  ]
+ },
+ "plain/threshold+fallback": {
+  "setting": {
+   "t": 0,
+   "fallback": 4
+  },
+  "calib_gain": -0.24,
+  "test_gIoU": 68.12,
+  "test_delta": -0.23,
+  "ci": [
+   -0.95,
+   0.19
+  ]
+ },
+ "flip/threshold": {
+  "setting": {
+   "t": -0.25
+  },
+  "calib_gain": -1.68,
+  "test_gIoU": 68.34,
+  "test_delta": -0.0,
+  "ci": [
+   -1.48,
+   1.55
+  ]
+ },
+ "flip/fallback": {
+  "setting": {
+   "fallback": 6
+  },
+  "calib_gain": -1.66,
+  "test_gIoU": 67.85,
+  "test_delta": -0.49,
+  "ci": [
+   -2.0,
+   1.02
+  ]
+ },
+ "flip/threshold+fallback": {
+  "setting": {
+   "t": -0.25,
+   "fallback": 4
+  },
+  "calib_gain": -1.68,
+  "test_gIoU": 67.73,
+  "test_delta": -0.61,
+  "ci": [
+   -2.1,
+   0.91
+  ]
+ },
+ "by_category_plain_fallback": {
+  "empty": {
+   "n": 4,
+   "base": 25.0,
+   "new": 0.0
+  },
+  "held-out: basketball court": {
+   "n": 15,
+   "base": 42.5,
+   "new": 43.1
+  },
+  "held-out: island": {
+   "n": 11,
+   "base": 32.2,
+   "new": 33.4
+  },
+  "held-out: lake": {
+   "n": 20,
+   "base": 33.3,
+   "new": 33.8
+  },
+  "held-out: stadium": {
+   "n": 18,
+   "base": 49.2,
+   "new": 49.2
+  },
+  "seen": {
+   "n": 232,
+   "base": 77.0,
+   "new": 77.0
+  }
+ }
+}

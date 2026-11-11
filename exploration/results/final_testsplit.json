@@ -1,0 +1,66 @@
+{
+ "set": "testsplit",
+ "n": 1928,
+ "routed": 88,
+ "released": {
+  "gIoU": 70.4,
+  "cIoU": 68.05
+ },
+ "policy": {
+  "gIoU": 71.36,
+  "cIoU": 66.51
+ },
+ "delta_gIoU": [
+  0.96,
+  0.36,
+  1.57
+ ],
+ "delta_cIoU": [
+  -1.54,
+  -2.91,
+  -0.24
+ ],
+ "routed_mean_iou": {
+  "released": 13.6,
+  "policy": 34.6
+ },
+ "routed_empty_targets": 12,
+ "by_category": {
+  "empty": {
+   "n": 39,
+   "released": 30.8,
+   "policy": 0.0,
+   "routed": 12
+  },
+  "held-out: basketball court": {
+   "n": 108,
+   "released": 45.0,
+   "policy": 61.5,
+   "routed": 31
+  },
+  "held-out: island": {
+   "n": 64,
+   "released": 49.9,
+   "policy": 49.9,
+   "routed": 0
+  },
+  "held-out: lake": {
+   "n": 151,
+   "released": 51.7,
+   "policy": 58.4,
+   "routed": 35
+  },
+  "held-out: stadium": {
+   "n": 101,
+   "released": 47.6,
+   "policy": 49.1,
+   "routed": 2
+  },
+  "seen": {
+   "n": 1465,
+   "released": 77.7,
+   "policy": 77.8,
+   "routed": 8
+  }
+ }
+}

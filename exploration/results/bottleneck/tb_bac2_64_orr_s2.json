@@ -1,0 +1,77 @@
+{
+ "name": "tb_bac2_64_orr_s2",
+ "kind": "bac2",
+ "tokens": 64,
+ "seed": 2,
+ "alpha": 0.5,
+ "rho": 0.5,
+ "decoder": "scatter",
+ "select": "oracle_region",
+ "sup": null,
+ "sup_weight": 1.0,
+ "gIoU": 0.7160080664215311,
+ "cIoU": 0.8029996527800781,
+ "minutes": 4.601524742444356,
+ "log": [
+  {
+   "step": 0,
+   "loss": 1.4785,
+   "sec": 1.1,
+   "alpha": 0.5
+  },
+  {
+   "step": 200,
+   "loss": 0.4775,
+   "sec": 31.7,
+   "alpha": 0.5035
+  },
+  {
+   "step": 400,
+   "loss": 0.5704,
+   "sec": 63.1,
+   "alpha": 0.5042
+  },
+  {
+   "step": 600,
+   "loss": 0.2131,
+   "sec": 93.4,
+   "alpha": 0.5047
+  },
+  {
+   "step": 800,
+   "loss": 0.4031,
+   "sec": 123.6,
+   "alpha": 0.5049
+  },
+  {
+   "step": 1000,
+   "loss": 0.2685,
+   "sec": 154.6,
+   "alpha": 0.5052
+  },
+  {
+   "step": 1200,
+   "loss": 0.2673,
+   "sec": 185.2,
+   "alpha": 0.5052
+  },
+  {
+   "step": 1400,
+   "loss": 0.2715,
+   "sec": 215.7,
+   "alpha": 0.5053
+  },
+  {
+   "step": 1600,
+   "loss": 0.2404,
+   "sec": 246.2,
+   "alpha": 0.5053
+  },
+  {
+   "step": 1775,
+   "loss": 0.1726,
+   "sec": 272.8,
+   "alpha": 0.5053
+  }
+ ]
+}

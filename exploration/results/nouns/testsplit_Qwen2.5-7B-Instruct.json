@@ -1,0 +1,588 @@
+{
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "vocab": [
+  "airplane",
+  "airport",
+  "baseball diamond",
+  "basketball court",
+  "beach",
+  "bridge",
+  "chaparral",
+  "church",
+  "circular farmland",
+  "cloud",
+  "commercial area",
+  "container crane",
+  "dense residential",
+  "desert",
+  "forest",
+  "freeway",
+  "golf course",
+  "ground track field",
+  "harbor",
+  "helicopter",
+  "helipad",
+  "industrial area",
+  "intersection",
+  "island",
+  "lake",
+  "large vehicle",
+  "meadow",
+  "medium residential",
+  "mobile home park",
+  "mountain",
+  "overpass",
+  "palace",
+  "parking lot",
+  "plane",
+  "railway",
+  "railway station",
+  "rectangular farmland",
+  "river",
+  "roundabout",
+  "runway",
+  "sea ice",
+  "ship",
+  "small vehicle",
+  "snowberg",
+  "soccer ball field",
+  "sparse residential",
+  "stadium",
+  "storage tank",
+  "swimming pool",
+  "tennis court",
+  "terrace",
+  "thermal power station",
+  "wetland"
+ ],
+ "predictions": {
+  "0008": {
+   "question": "If you're looking to refine your serving skills or participate in a competitive game, where would be the best venue?  ",
+   "free": "tennis court",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "0017": {
+   "question": "If you\u2019re looking to enhance your backhand skills, which recreational facility dedicated to sports would be the best choice?  ",
+   "free": "tennis court",
+   "vocab": "tennis court",
+   "vocab_valid": true
+  },
+  "0022": {
+   "question": "If you're looking to swim laps in the central area of the image, which facility would be the best choice?  ",
+   "free": "swimming pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "0026": {
+   "question": "Where within this recreational facility can an individual go to develop their diving skills effectively?",
+   "free": "diving pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "0052": {
+   "question": "In a countryside community focused on sustainable energy solutions, what device would best capture the area's abundant wind power?",
+   "free": "wind turbine",
+   "vocab": "wind turbine",
+   "vocab_valid": false
+  },
+  "0053": {
+   "question": "What type of structure is most efficient in harnessing wind energy for a site focused on sustainable energy practices?  ",
+   "free": "wind turbine",
+   "vocab": "wind turbine",
+   "vocab_valid": false
+  },
+  "0068": {
+   "question": "What kind of infrastructure would be suitable for a community that requires a facility to treat and purify wastewater in a remote area surrounded by farmland?  ",
+   "free": "wastewater treatment plant",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "0079": {
+   "question": "If you were looking to engage in an outdoor team sport that involves a ball and hoops, which facility in this photo would be ideal?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0081": {
+   "question": "If an individual is looking to engage in batting practice with a group in a spacious field designed for sports, where should they head?",
+   "free": "sports field",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0086": {
+   "question": "If you're eager to join a team sport focused on scoring by shooting a ball through a hoop, where would you head nearby?  ",
+   "free": "basketcourt",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0099": {
+   "question": "If you were seeking a team sport that features pitching and batting, what location would you choose to participate in?  ",
+   "free": "baseball field",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "0106": {
+   "question": "In an area aiming for sustainable energy generation while conserving land, what kind of structure might best achieve this goal?  ",
+   "free": "solar farm",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "0726": {
+   "question": "If you were to find a place to enjoy a game that includes a hoop and a ball outside, where would that be?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0728": {
+   "question": "If you had the opportunity to enhance your shooting abilities, which specific area would you select for practice?  ",
+   "free": "sports field",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "0730": {
+   "question": "If you were looking to sharpen your basketball shooting skills, in which locations would you expect to find suitable facilities?",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0735": {
+   "question": "If you were eager to engage in a game that features dribbling and shooting skills, which location would you choose?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0753": {
+   "question": "If you were aiming to improve your free throw shooting skills, which area of this facility would you choose to train?",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0759": {
+   "question": "If you were looking to refine your three-point shooting skills, what would be the ideal setting for such practice?",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0760": {
+   "question": "If you\u2019re searching for a venue suitable for a team sport involving a hoop and a ball, what place would you select?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0763": {
+   "question": "If you wanted to refine your jump shot skills, where would be the most suitable place to do that effectively?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0765": {
+   "question": "If you were aiming to improve your free throw shooting skills, where in this facility would be the best location to practice?  ",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0766": {
+   "question": "Should an individual seek to engage in a game that features hoops and dribbling, which venue would be most suitable?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0767": {
+   "question": "When planning a community tournament aimed at enhancing teamwork and cooperation, which venue would be the most suitable? ",
+   "free": "parking lot",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0774": {
+   "question": "If you were to enhance your free throw skills, which specific location would be best suited for practicing this sport?  ",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0775": {
+   "question": "If you\u2019re looking to enjoy a game that includes shooting hoops, which local venue would be the best choice? ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0781": {
+   "question": "If you were to improve your basketball shooting skills, which location in this picture would you choose to practice?  ",
+   "free": "parking lot",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0782": {
+   "question": "If a team of friends is eager to engage in a game that includes dribbling, passing, and shooting at hoops, what location would be ideal for them?",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0808": {
+   "question": "If you were eager to engage in a sport that requires dribbling and shooting, what facility would you choose?",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0809": {
+   "question": "If a bunch of buddies seeks to enjoy a 5-on-5 game at dusk, which outdoor venue would be ideal for them?",
+   "free": "basketball court",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0828": {
+   "question": "If you were looking to hone your shooting abilities while being part of a team, what venue would you choose?",
+   "free": "shooting range",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0843": {
+   "question": "If guests are looking to engage in a hoop-related game, which location would be ideal for them to visit?  ",
+   "free": "hoop court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0864": {
+   "question": "If you were looking to improve your free throw skills, where would be the best spot in this vicinity for practice?",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0865": {
+   "question": "If you're looking to enhance your shooting skills, where could you locate several basketball hoops nearby?",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0872": {
+   "question": "What type of sports facility would be best suited for those looking to participate in a team game centered around dribbling and shooting?",
+   "free": "basketball court",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0890": {
+   "question": "If an individual is interested in participating in a team sport that requires a ball and a hoop, what local facility is recommended?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0893": {
+   "question": "If you were searching for a place to enjoy a team game that involves shooting a hoop, where would you head?",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0894": {
+   "question": "If you're interested in a game that focuses on dribbling and shooting skills, where should you head to play?  ",
+   "free": "basketball court",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0895": {
+   "question": "If you're looking to engage in a sport that involves both dribbling and shooting, which local facility should you visit?  ",
+   "free": "basketball court",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0896": {
+   "question": "If your goal is to enhance your three-point shooting skills, which spot in this picture would you choose to practice?  ",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0899": {
+   "question": "If you had the chance to pick a place to play a ball game involving teams and a hoop, where would it be?",
+   "free": "parking lot",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0900": {
+   "question": "If you're eager to engage in a sport that needs a hoop and specific court markings, where would you head?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0903": {
+   "question": "If you were eager to join a team sport involving hoops, what location would you choose to participate?  ",
+   "free": "basketcourt",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0905": {
+   "question": "If you're looking to shoot some hoops, which nearby location would be best suited for playing that game?",
+   "free": "basketcourt",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "1334": {
+   "question": "In what ways does the surge in vehicle traffic on the linking structure impact pedestrian safety during busy hours?",
+   "free": "linking structure",
+   "vocab": "overpass",
+   "vocab_valid": true
+  },
+  "2017": {
+   "question": "If you were planning to establish a commercial farm, what type of structure would be key for managing environmental factors effectively?",
+   "free": "greenhouse",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "2544": {
+   "question": "What locations offer opportunities for boating, fishing, or simply soaking in beautiful views while utilizing the recreational aspects of a natural water body?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2553": {
+   "question": "What locations boast expansive natural formations that promote aquatic ecosystems and are popular for leisure pursuits such as fishing and boating?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2563": {
+   "question": "What locations exist that allow individuals to partake in leisure pursuits such as boating and fishing, fostering community health and relaxation?  ",
+   "free": "lake",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2601": {
+   "question": "What destinations are available for community members to enjoy recreational pursuits like kayaking and fishing in their local suburban area?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2620": {
+   "question": "If a town decided to create a recreational space for boating and fishing, what natural resource would they consider using?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2623": {
+   "question": "If you were planning a new recreational space for angling and boating, what key aspect would you prioritize in its design?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2638": {
+   "question": "Which area depicted in the image would be best suited for a peaceful day of fishing, swimming, or paddle boating?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2640": {
+   "question": "What particular characteristic would you consider the most suitable focal point for setting up a recreational fishing area?",
+   "free": "river",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2644": {
+   "question": "In which locations do you think you could engage in recreational fishing or watch migratory birds to learn about their ecological behaviors? ",
+   "free": "lake, river",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2660": {
+   "question": "Imagine you're organizing a fun fishing getaway; which spot would you choose based on its natural features and surroundings?  ",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2669": {
+   "question": "If you had the opportunity to aid in the preservation of local wildlife, which specific region would capture your interest?",
+   "free": "wildlife reserve",
+   "vocab": "chaparral",
+   "vocab_valid": true
+  },
+  "2671": {
+   "question": "If a local agricultural community required a sustainable source for irrigation and freshwater, which depicted element would be most suitable and why?",
+   "free": "river",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "2673": {
+   "question": "If you were tasked with creating a recreational fishing zone, what natural attribute would you choose to enhance?",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2676": {
+   "question": "If you had the opportunity to choose a location for a new fishing area, what specific characteristic would influence your decision?",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2678": {
+   "question": "If local community members are seeking a serene spot to unwind and partake in aquatic activities, which location would be ideal?",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2679": {
+   "question": "If a person is planning to go fishing, where should they ideally place their boat for optimal results?  ",
+   "free": "river",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2681": {
+   "question": "What particular characteristic of this area would attract someone interested in taking part in fishing activities?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2684": {
+   "question": "If you were organizing a community event, which aspect would provide the greatest chance for fishing enthusiasts to enjoy themselves?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2690": {
+   "question": "If you were planning a fishing trip for leisure, what specific feature of a location would you prefer most?",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2691": {
+   "question": "For someone interested in creating a cozy fishing spot, what specific element would they probably incorporate into their design?  ",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2694": {
+   "question": "In planning a recreational fishing event, what locations in this area do you think would be ideal for such an activity?  ",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2697": {
+   "question": "In examining this image, which specific area would you choose to set up a fish farming operation for optimal results?",
+   "free": "lake",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "2700": {
+   "question": "In seeking to improve recreational options, which nearby site would provide opportunities for fishing or small boating?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2702": {
+   "question": "If you were planning a fishing retreat in a forested area, which specific spot would you choose for optimal catch?  ",
+   "free": "lake",
+   "vocab": "forest",
+   "vocab_valid": true
+  },
+  "2704": {
+   "question": "If you were tasked with planning a fishing tournament here, what natural landscape would offer the ideal setting for participants?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2705": {
+   "question": "If you were tasked with creating a recreational space, which location would you choose for fishing, considering these specific features?  ",
+   "free": "river",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2709": {
+   "question": "If you decided to start an aquaculture business, what specific location in the vicinity would be ideal for success?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2711": {
+   "question": "If you were planning to establish a recreational fishing location, what natural feature would stand out as the best choice?  ",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2712": {
+   "question": "In order to boost the biodiversity within your community, what specific ecological aspect should you prioritize for protection or growth?  ",
+   "free": "forest",
+   "vocab": "chaparral",
+   "vocab_valid": true
+  },
+  "2713": {
+   "question": "If you were tasked with creating an eco-tourism destination, what locations would you choose for recreational amenities to draw in tourists?",
+   "free": "beach, forest, lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2716": {
+   "question": "If a group of local residents sought to create a recreational space for fishing and boating, which element in the picture would be most beneficial? ",
+   "free": "river",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2718": {
+   "question": "If you were to create a recreational fishing destination, which spot depicted in the image would be the ideal choice?  ",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2720": {
+   "question": "If you were tasked with designing a fishing recreation area, which specific element would enhance the fishing experience the most? ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2722": {
+   "question": "If the local community decides to plan a fishing trip, which nearby spot would be ideal for such an activity? ",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2723": {
+   "question": "When a community opts to enhance recreational fishing, what natural element is expected to be prioritized, and what are the reasons behind it?",
+   "free": "river",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2728": {
+   "question": "If a neighborhood decided to create a recreational fishing spot, what characteristics would be selected and for what reasons?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "3670": {
+   "question": "What venues are capable of hosting massive gatherings like soccer games and concerts, allowing thousands of fans to attend?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3722": {
+   "question": "Imagine you\u2019re organizing an expansive music festival; which venue do you believe would be best for housing thousands of fans?",
+   "free": "parking lot",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "4334": {
+   "question": "What location do you usually visit to refine your swimming skills and unwind in a well-regulated aquatic setting?  ",
+   "free": "swimming pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4414": {
+   "question": "In the event that a local outdoor gathering focused on water-related events is planned, which site would be optimal in this community?",
+   "free": "river",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "4637": {
+   "question": "If you're interested in playing a game that involves a net, designated lines, and uses racquets to strike a ball, what venue would you choose?  ",
+   "free": "tennis court",
+   "vocab": "tennis court",
+   "vocab_valid": true
+  },
+  "4661": {
+   "question": "If you were in search of a suitable area to engage in a two-player racket game, which location would you choose here?",
+   "free": "tennis court",
+   "vocab": "tennis court",
+   "vocab_valid": true
+  },
+  "5423": {
+   "question": "To enhance energy efficiency along coastal regions, what essential infrastructure is needed to effectively capture wind energy? ",
+   "free": "wind farm",
+   "vocab": "wind farm",
+   "vocab_valid": false
+  }
+ }
+}

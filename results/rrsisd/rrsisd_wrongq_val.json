@@ -1,0 +1,20 @@
+{
+  "name": "rrsisd_wrongq",
+  "kind": "released",
+  "tta": 1,
+  "num_tokens": 64,
+  "split": "val",
+  "n": 300,
+  "gIoU": 0.252327034245753,
+  "cIoU": 0.2959787871842832,
+  "Pr@0.5": 0.29333333333333333,
+  "Pr@0.6": 0.26,
+  "Pr@0.7": 0.23333333333333334,
+  "Pr@0.8": 0.17333333333333334,
+  "Pr@0.9": 0.1,
+  "latency_ms": 1858.1397499656305,
+  "prefill_GFLOPs": 369.286643712,
+  "connector_params_M": 62.134272,
+  "peak_mem_GB": 10.17954304,
+  "boundary_agreement": null
+}

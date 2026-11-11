@@ -1,0 +1,223 @@
+{
+ "model": "base",
+ "src": "plain",
+ "calib_ranking": [
+  [
+   "fallback_boxpt",
+   0.3867571550896898
+  ],
+  [
+   "fallback_box",
+   0.3633965213857726
+  ],
+  [
+   "gated_box_tau0.95_k0.7",
+   0.290326436915167
+  ],
+  [
+   "gated_box_tau0.95_k0.5",
+   0.12753180303273215
+  ],
+  [
+   "seg",
+   0.0
+  ],
+  [
+   "gated_boxpt_tau0.95_k0.7",
+   -0.005844827174927847
+  ],
+  [
+   "gated_box_tau0.9_k0.7",
+   -0.24728175158347243
+  ],
+  [
+   "gated_box_tau0.95_k0.3",
+   -0.4051959503622804
+  ],
+  [
+   "gated_box_tau0.85_k0.7",
+   -0.41152958782300075
+  ],
+  [
+   "gated_boxpt_tau0.9_k0.7",
+   -0.556827445692698
+  ],
+  [
+   "gated_boxpt_tau0.95_k0.5",
+   -0.5866615253069973
+  ],
+  [
+   "gated_boxpt_tau0.7_k0.7",
+   -0.5891436588083554
+  ],
+  [
+   "gated_boxpt_tau0.8_k0.7",
+   -0.5891436588083554
+  ],
+  [
+   "gated_boxpt_tau0.85_k0.7",
+   -0.5891436588083554
+  ],
+  [
+   "gated_box_tau0.8_k0.7",
+   -0.6438161977193713
+  ],
+  [
+   "gated_box_tau0.7_k0.7",
+   -0.7016947678544216
+  ],
+  [
+   "gated_box_tau0.9_k0.5",
+   -1.183355637143635
+  ],
+  [
+   "gated_boxpt_tau0.95_k0.3",
+   -1.4086097361415195
+  ],
+  [
+   "gated_box_tau0.95_k0.0",
+   -1.5176297438064812
+  ],
+  [
+   "gated_box_tau0.85_k0.5",
+   -1.7019356163338384
+  ]
+ ],
+ "test": {
+  "fallback_boxpt": {
+   "chosen_on_calib": true,
+   "calib_gain": 0.39,
+   "test_gIoU": 69.59,
+   "test_delta": 1.24,
+   "ci": [
+    -0.02,
+    2.57
+   ],
+   "by_category": {
+    "empty": [
+     25.0,
+     0.0,
+     4
+    ],
+    "held-out": [
+     39.7,
+     47.1,
+     64
+    ],
+    "seen": [
+     77.0,
+     77.0,
+     232
+    ]
+   }
+  },
+  "sam_best_score_box": {
+   "chosen_on_calib": false,
+   "calib_gain": -8.79,
+   "test_gIoU": 58.5,
+   "test_delta": -9.85,
+   "ci": [
+    -12.91,
+    -6.85
+   ],
+   "by_category": {
+    "empty": [
+     25.0,
+     0.0,
+     4
+    ],
+    "held-out": [
+     39.7,
+     48.8,
+     64
+    ],
+    "seen": [
+     77.0,
+     62.2,
+     232
+    ]
+   }
+  },
+  "sam_best_score_boxpt": {
+   "chosen_on_calib": false,
+   "calib_gain": -7.97,
+   "test_gIoU": 59.21,
+   "test_delta": -9.13,
+   "ci": [
+    -11.98,
+    -6.25
+   ],
+   "by_category": {
+    "empty": [
+     25.0,
+     0.0,
+     4
+    ],
+    "held-out": [
+     39.7,
+     48.2,
+     64
+    ],
+    "seen": [
+     77.0,
+     63.3,
+     232
+    ]
+   }
+  },
+  "fallback_box": {
+   "chosen_on_calib": false,
+   "calib_gain": 0.36,
+   "test_gIoU": 69.53,
+   "test_delta": 1.19,
+   "ci": [
+    -0.04,
+    2.45
+   ],
+   "by_category": {
+    "empty": [
+     25.0,
+     0.0,
+     4
+    ],
+    "held-out": [
+     39.7,
+     46.9,
+     64
+    ],
+    "seen": [
+     77.0,
+     77.0,
+     232
+    ]
+   }
+  },
+  "sam_agree_box": {
+   "chosen_on_calib": false,
+   "calib_gain": -5.21,
+   "test_gIoU": 63.71,
+   "test_delta": -4.63,
+   "ci": [
+    -7.0,
+    -2.26
+   ],
+   "by_category": {
+    "empty": [
+     25.0,
+     0.0,
+     4
+    ],
+    "held-out": [
+     39.7,
+     48.1,
+     64
+    ],
+    "seen": [
+     77.0,
+     69.1,
+     232
+    ]
+   }
+  }
+ }
+}

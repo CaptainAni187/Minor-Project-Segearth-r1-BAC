@@ -1,0 +1,3 @@
+{"id": "animeshkumar187/bac-reproduction", "title": "BAC reproduction", "code_file": "bac_kaggle.ipynb",
+ "language": "python", "kernel_type": "notebook", "is_private": true, "enable_gpu": true, "enable_internet": true,
+ "dataset_sources": ["animeshkumar187/bac-code"], "competition_sources": [], "kernel_sources": []}

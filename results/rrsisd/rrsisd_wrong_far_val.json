@@ -1,0 +1,20 @@
+{
+  "name": "rrsisd_wrong_far",
+  "kind": "wrong_far",
+  "tta": 1,
+  "num_tokens": 64,
+  "split": "val",
+  "n": 300,
+  "gIoU": 0.6763447885577598,
+  "cIoU": 0.7872799821503511,
+  "Pr@0.5": 0.7933333333333333,
+  "Pr@0.6": 0.73,
+  "Pr@0.7": 0.61,
+  "Pr@0.8": 0.48333333333333334,
+  "Pr@0.9": 0.2966666666666667,
+  "latency_ms": 1859.7454170230776,
+  "prefill_GFLOPs": 369.286643712,
+  "connector_params_M": 0.0,
+  "peak_mem_GB": 10.112434176,
+  "boundary_agreement": null
+}

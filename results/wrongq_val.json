@@ -1,0 +1,20 @@
+{
+  "name": "wrongq",
+  "kind": "released",
+  "tta": 1,
+  "num_tokens": 64,
+  "split": "val",
+  "n": 300,
+  "gIoU": 0.643030261549402,
+  "cIoU": 0.6428857853392296,
+  "Pr@0.5": 0.7,
+  "Pr@0.6": 0.65,
+  "Pr@0.7": 0.58,
+  "Pr@0.8": 0.49,
+  "Pr@0.9": 0.30666666666666664,
+  "latency_ms": 1537.961499998346,
+  "prefill_GFLOPs": 501.029535744,
+  "connector_params_M": 62.134272,
+  "peak_mem_GB": 11.261673472,
+  "boundary_agreement": null
+}

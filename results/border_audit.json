@@ -1,0 +1,16 @@
+{
+ "bac64": {
+  "border_ring": 0.34427083333333336,
+  "border_ring_chance": 0.234375,
+  "padding": 0.023229166666666665,
+  "padding_chance": 0.03576171875,
+  "n": 300
+ },
+ "bac16": {
+  "border_ring": 0.3904166666666667,
+  "border_ring_chance": 0.234375,
+  "padding": 0.020833333333333332,
+  "padding_chance": 0.03576171875,
+  "n": 300
+ }
+}

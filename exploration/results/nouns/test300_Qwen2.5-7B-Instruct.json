@@ -1,0 +1,456 @@
+{
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "vocab": [
+  "airplane",
+  "airport",
+  "baseball diamond",
+  "basketball court",
+  "beach",
+  "bridge",
+  "chaparral",
+  "church",
+  "circular farmland",
+  "cloud",
+  "commercial area",
+  "container crane",
+  "dense residential",
+  "desert",
+  "forest",
+  "freeway",
+  "golf course",
+  "ground track field",
+  "harbor",
+  "helicopter",
+  "helipad",
+  "industrial area",
+  "intersection",
+  "island",
+  "lake",
+  "large vehicle",
+  "meadow",
+  "medium residential",
+  "mobile home park",
+  "mountain",
+  "overpass",
+  "palace",
+  "parking lot",
+  "plane",
+  "railway",
+  "railway station",
+  "rectangular farmland",
+  "river",
+  "roundabout",
+  "runway",
+  "sea ice",
+  "ship",
+  "small vehicle",
+  "snowberg",
+  "soccer ball field",
+  "sparse residential",
+  "stadium",
+  "storage tank",
+  "swimming pool",
+  "tennis court",
+  "terrace",
+  "thermal power station",
+  "wetland"
+ ],
+ "predictions": {
+  "0056": {
+   "question": "What device can effectively transform kinetic energy into electricity when a region commits to investing in renewable energy sources? ",
+   "free": "wind turbine",
+   "vocab": "runway",
+   "vocab_valid": true
+  },
+  "0731": {
+   "question": "If you were tasked with organizing a basketball tournament, which venue depicted in the image would be your top choice?  ",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0736": {
+   "question": "What area within this lush green space featuring clear trails would be perfect for hosting a sports event on a solid surface?",
+   "free": "clear trails",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0738": {
+   "question": "What would be the best recreational venue to host a community sports gathering that offers ample space, accessibility, and seating for spectators?",
+   "free": "sports field",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "0742": {
+   "question": "What type of recreational area in city parks is often utilized for team sports and various physical fitness activities?  ",
+   "free": "sports field",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0749": {
+   "question": "Which part of the park has the largest open areas ideal for engaging in various outdoor sports and recreational activities?",
+   "free": "open fields",
+   "vocab": "meadow",
+   "vocab_valid": true
+  },
+  "0750": {
+   "question": "What area near parks and leisure facilities would be ideal for hosting a community-focused sports event with vibrant participation?  ",
+   "free": "playing field",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0752": {
+   "question": "If you were looking to enhance your dribbling skills through a multi-lane drill, which facility would you choose?  ",
+   "free": "multi-lane drill area",
+   "vocab": "football field",
+   "vocab_valid": false
+  },
+  "0783": {
+   "question": "If you wanted to participate in a team sport involving a ball and two hoops, which location would you choose to visit?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0818": {
+   "question": "What type of recreational area in an urban park provides an open, flat space suitable for kids to play team sports?  ",
+   "free": "sports field",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0827": {
+   "question": "What local recreational facility offers space for team sports, situated close to the expansive sports field and frequented by nearby residents?",
+   "free": "sports complex",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0830": {
+   "question": "What nearby area has amenities that are popular among local residents for participating in outdoor sporting events?  ",
+   "free": "parking lot",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0877": {
+   "question": "If you're interested in participating in a team sport that features a hoop and ball, what location would be ideal for you?  ",
+   "free": "basketcourt",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0878": {
+   "question": "Which type of facility would provide the best environment for you to hone your slam dunk technique effectively?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0880": {
+   "question": "If you decided to participate in a team sport that involves using a hoop, where would you choose to practice?  ",
+   "free": "basket court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0897": {
+   "question": "If you were looking to join a team sport that involves a hoop and a ball, what facility would you choose?",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "1125": {
+   "question": "What kind of structure provides a secure passage over a body of water for both vehicles and pedestrians, maintaining seamless connectivity?",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1434": {
+   "question": "If an individual aims to study the prevalent architectural design found in a historical religious location depicted in this image, which building should they explore?",
+   "free": "church",
+   "vocab": "church",
+   "vocab_valid": true
+  },
+  "2428": {
+   "question": "What are some remote land forms completely encircled by water, typically sought after for relaxation and tranquility, and reachable mainly by boat?  ",
+   "free": "island",
+   "vocab": "island",
+   "vocab_valid": true
+  },
+  "2429": {
+   "question": "What would be the best site to carry out a biological study of coastal plants and animals on an island?  ",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2443": {
+   "question": "What remote area could serve as a pristine environment perfect for exploring distinctive ecosystems and various wildlife populations?  ",
+   "free": "national park",
+   "vocab": "forest",
+   "vocab_valid": true
+  },
+  "2453": {
+   "question": "What would be the perfect spot to establish a remote research facility dedicated to studying both marine and terrestrial ecosystems?",
+   "free": "coastal cliff",
+   "vocab": "wetland",
+   "vocab_valid": true
+  },
+  "2454": {
+   "question": "What remote destination would you prefer for a secluded getaway that features tranquil waters and guarantees complete privacy?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2460": {
+   "question": "What would be the most ideal remote area for establishing an ecological research facility, considering its diverse ecosystems and seclusion?  ",
+   "free": "rainforest",
+   "vocab": "forest",
+   "vocab_valid": true
+  },
+  "2465": {
+   "question": "What is the most suitable site for establishing a remote marine research facility focused on investigating ocean biodiversity and ecological dynamics?",
+   "free": "coastal bay",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2483": {
+   "question": "What geographical landform appears in this remote sensing image that could act as a secluded getaway away from the mainland?  ",
+   "free": "island",
+   "vocab": "island",
+   "vocab_valid": true
+  },
+  "2487": {
+   "question": "What significant landform acts as a divider between the two bodies of water, showcasing unique flora and specific agricultural practices?",
+   "free": "river",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "2499": {
+   "question": "What area, completely encircled by water, could provide an extraordinary environment for different types of wildlife to thrive?",
+   "free": "island",
+   "vocab": "island",
+   "vocab_valid": true
+  },
+  "2526": {
+   "question": "What locations are often home to distinct ecosystems and secluded habitats that are not easily accessible from the mainland?  ",
+   "free": "island",
+   "vocab": "island",
+   "vocab_valid": true
+  },
+  "2561": {
+   "question": "What locations are ideal for large water bodies that serve as catchment areas to help reduce flooding during intense rainstorms?  ",
+   "free": "catchment areas",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2566": {
+   "question": "What locations in this verdant landscape could locals explore for leisure activities such as fishing, unwinding, and observing birds?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2574": {
+   "question": "What location can serve as a natural environment that contributes to local climate regulation and supports diverse wildlife, ideal for outdoor activities like fishing or boating?",
+   "free": "lake",
+   "vocab": "forest",
+   "vocab_valid": true
+  },
+  "2581": {
+   "question": "What locations provide opportunities for fishing, boating, and swimming, while also offering valuable ecosystem services like water filtration and species habitats?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2583": {
+   "question": "What natural element in a wooded area plays a crucial role in moderating the climate and supporting various wildlife species?",
+   "free": "forest",
+   "vocab": "forest",
+   "vocab_valid": true
+  },
+  "2585": {
+   "question": "What significant natural landmark in a secluded area provides essential freshwater for nearby inhabitants and supports various aquatic life forms?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2608": {
+   "question": "What specific area within this observed green space contributes to the stabilization of the microclimate and supports diverse wildlife habitats?  ",
+   "free": "greenbelt",
+   "vocab": "meadow",
+   "vocab_valid": true
+  },
+  "2614": {
+   "question": "In which local spots can individuals engage in fishing, boating, or partake in various water-based leisure activities?",
+   "free": "lake",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2627": {
+   "question": "What locations in this setting seem most suitable for enjoying outdoor leisure activities like fishing, boating, or having a picnic, especially near water?",
+   "free": "beach, lakeside, riverside",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2647": {
+   "question": "If you were seeking a spot for fishing and freshwater recreational activities nearby, where would you decide to go?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2652": {
+   "question": "In a scenario where a community aims to enhance local recreational fishing, which natural attribute would provide the greatest advantage?  ",
+   "free": "river",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2670": {
+   "question": "What aspect of recreational facilities would you focus on improving to better serve the leisure needs of community members? ",
+   "free": "parking lot",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "2682": {
+   "question": "If community members are interested in outdoor activities like fishing, which spot would be their best option?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2685": {
+   "question": "If you were considering starting a small fish farming venture here, which natural attribute would best support your efforts?  ",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2692": {
+   "question": "What characteristics would suggest an ideal location for fishing if you were organizing a fishing trip?",
+   "free": "river, lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2701": {
+   "question": "If a neighborhood decided to create a new venue for canoeing and fishing activities, what site would be optimal?",
+   "free": "river",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2724": {
+   "question": "If a new picnic area were established to boost recreational opportunities, which location would be most suitable?  ",
+   "free": "open field",
+   "vocab": "meadow",
+   "vocab_valid": true
+  },
+  "2911": {
+   "question": "What design would facilitate the most efficient loading and unloading of cargo from vessels in this coastal region to boost local commerce?  ",
+   "free": "harbor",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "3678": {
+   "question": "What venue in the city attracts huge crowds for major sporting events and provides an enjoyable experience for all attendees?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3679": {
+   "question": "What location offers a spacious facility perfect for organizing sports events and concerts, complete with ample seating for attendees?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3689": {
+   "question": "What type of venue is capable of accommodating large-scale sporting events while providing entertainment for countless fans and spectators?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3704": {
+   "question": "Where are the popular venues in a city where locals come together to enjoy significant sports events and concerts, fostering community spirit?  ",
+   "free": "stadium complex",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3706": {
+   "question": "Which venues accommodate sizable audiences for attending concerts or sporting events, ensuring sufficient seating and essential amenities for all guests?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3713": {
+   "question": "What would be the ideal venue in the city for accommodating major international sports competitions and significant concerts, with ample seating and robust amenities?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3732": {
+   "question": "When a city sets its sights on hosting an international sporting event, which type of venue is crucial for accommodating significant competitions?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3733": {
+   "question": "When local officials organize significant public gatherings, which types of facilities are best suited for accommodating sports events and live concerts?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3745": {
+   "question": "In the event of hosting a significant sports tournament, which facilities are essential for supporting both large crowds and participating athletes?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3754": {
+   "question": "In the event a city decides to hold a significant athletic competition, what existing facilities would cater to both the events and attendees?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3760": {
+   "question": "In the event that a city aims to host a global sports competition, which facilities need enhancement or enlargement for adequate seating?",
+   "free": "stadiums",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3762": {
+   "question": "If you were planning a major concert, what venue do you think would best fit a crowd of thousands?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3766": {
+   "question": "To boost sports tourism and enhance local income, which locations would be ideal for hosting significant events that attract many attendees?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3779": {
+   "question": "When organizing a large-scale outdoor concert, which venue would provide optimal acoustics and seating arrangement for the audience's comfort?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3800": {
+   "question": "If international sports events are held in this location, which facilities should be upgraded to better serve an increased number of spectators?  ",
+   "free": "parking lot",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3802": {
+   "question": "In a bustling city, where would be the ideal venue to host a popular event that draws a significant crowd? ",
+   "free": "parking lot",
+   "vocab": "commercial area",
+   "vocab_valid": true
+  },
+  "3806": {
+   "question": "In the case of a large-scale event drawing in thousands of attendees, what type of facility would be most suitable?  ",
+   "free": "parking lot",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3811": {
+   "question": "In the context of a locality planning to host global sporting competitions, what facility is expected to be the main venue?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "5207": {
+   "question": "In the event of contamination affecting local water supplies, which infrastructure elements would be vital in managing and curbing its spread?",
+   "free": "water treatment plant",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  }
+ }
+}

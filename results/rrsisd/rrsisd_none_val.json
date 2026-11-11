@@ -1,0 +1,20 @@
+{
+  "name": "rrsisd_none",
+  "kind": "none",
+  "tta": 1,
+  "num_tokens": 0,
+  "split": "val",
+  "n": 300,
+  "gIoU": 0.6769920609742084,
+  "cIoU": 0.7870589973368398,
+  "Pr@0.5": 0.7933333333333333,
+  "Pr@0.6": 0.73,
+  "Pr@0.7": 0.61,
+  "Pr@0.8": 0.48333333333333334,
+  "Pr@0.9": 0.2966666666666667,
+  "latency_ms": 1767.8159999195486,
+  "prefill_GFLOPs": 211.673088,
+  "connector_params_M": 62.134272,
+  "peak_mem_GB": 10.204708864,
+  "boundary_agreement": null
+}

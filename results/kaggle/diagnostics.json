@@ -1,0 +1,237 @@
+{
+ "n_images": 24,
+ "sensitivity": {
+  "far_tokens": {
+   "median": 0.0006802646967116743,
+   "max": 0.0017804695526137948
+  },
+  "zero_tokens": {
+   "median": 0.08284112066030502,
+   "max": 0.15999454259872437
+  },
+  "no_tokens": {
+   "median": 0.03939329273998737,
+   "max": 0.07350681722164154
+  },
+  "other_question": {
+   "median": 1.33638995885849,
+   "max": 1.598719596862793
+  }
+ },
+ "per_image": [
+  {
+   "image": "0024.jpg",
+   "other": "2685.jpg",
+   "far_tokens": 0.0005905427387915552,
+   "zero_tokens": 0.07159598916769028,
+   "no_tokens": 0.03809197247028351,
+   "other_question": 1.2739408016204834
+  },
+  {
+   "image": "0322.jpg",
+   "other": "2992.jpg",
+   "far_tokens": 0.0005594242247752845,
+   "zero_tokens": 0.08244641870260239,
+   "no_tokens": 0.039825014770030975,
+   "other_question": 1.3396220207214355
+  },
+  {
+   "image": "0497.jpg",
+   "other": "3316.jpg",
+   "far_tokens": 0.0009677338530309498,
+   "zero_tokens": 0.08209416270256042,
+   "no_tokens": 0.03581627830862999,
+   "other_question": 1.1684974431991577
+  },
+  {
+   "image": "0742.jpg",
+   "other": "3536.jpg",
+   "far_tokens": 0.0006394013180397451,
+   "zero_tokens": 0.0659279152750969,
+   "no_tokens": 0.02889351174235344,
+   "other_question": 1.3910739421844482
+  },
+  {
+   "image": "1059.jpg",
+   "other": "3713.jpg",
+   "far_tokens": 0.0017804695526137948,
+   "zero_tokens": 0.09044908732175827,
+   "no_tokens": 0.0400008000433445,
+   "other_question": 1.4690593481063843
+  },
+  {
+   "image": "1195.jpg",
+   "other": "3816.jpg",
+   "far_tokens": 0.00020548152679111809,
+   "zero_tokens": 0.05021635815501213,
+   "no_tokens": 0.01671074517071247,
+   "other_question": 1.1352901458740234
+  },
+  {
+   "image": "1416.jpg",
+   "other": "4079.jpg",
+   "far_tokens": 0.0003094693529419601,
+   "zero_tokens": 0.1184406727552414,
+   "no_tokens": 0.05608522146940231,
+   "other_question": 1.598719596862793
+  },
+  {
+   "image": "1689.jpg",
+   "other": "4254.jpg",
+   "far_tokens": 0.0008437936776317656,
+   "zero_tokens": 0.12024503946304321,
+   "no_tokens": 0.04447898641228676,
+   "other_question": 1.0568852424621582
+  },
+  {
+   "image": "2025.jpg",
+   "other": "4418.jpg",
+   "far_tokens": 0.000189843587577343,
+   "zero_tokens": 0.06940755993127823,
+   "no_tokens": 0.02915816381573677,
+   "other_question": 1.265816330909729
+  },
+  {
+   "image": "2250.jpg",
+   "other": "4827.jpg",
+   "far_tokens": 0.00031737799872644246,
+   "zero_tokens": 0.07889852672815323,
+   "no_tokens": 0.03568173199892044,
+   "other_question": 1.2758533954620361
+  },
+  {
+   "image": "2454.jpg",
+   "other": "5145.jpg",
+   "far_tokens": 0.0007693928782828152,
+   "zero_tokens": 0.1010214313864708,
+   "no_tokens": 0.0554463155567646,
+   "other_question": 1.5218544006347656
+  },
+  {
+   "image": "2608.jpg",
+   "other": "5372.jpg",
+   "far_tokens": 0.0004190336912870407,
+   "zero_tokens": 0.07594387978315353,
+   "no_tokens": 0.041152361780405045,
+   "other_question": 1.4483970403671265
+  },
+  {
+   "image": "2760.jpg",
+   "other": "0150.jpg",
+   "far_tokens": 0.0007211280753836036,
+   "zero_tokens": 0.10106520354747772,
+   "no_tokens": 0.049644675105810165,
+   "other_question": 1.3331578969955444
+  },
+  {
+   "image": "3112.jpg",
+   "other": "0395.jpg",
+   "far_tokens": 0.0009637330076657236,
+   "zero_tokens": 0.15999454259872437,
+   "no_tokens": 0.07350681722164154,
+   "other_question": 1.0221294164657593
+  },
+  {
+   "image": "3420.jpg",
+   "other": "0597.jpg",
+   "far_tokens": 0.00025849969824776053,
+   "zero_tokens": 0.10649946331977844,
+   "no_tokens": 0.03896157070994377,
+   "other_question": 1.542077898979187
+  },
+  {
+   "image": "3644.jpg",
+   "other": "0827.jpg",
+   "far_tokens": 0.0008016416686587036,
+   "zero_tokens": 0.09050942957401276,
+   "no_tokens": 0.04317436367273331,
+   "other_question": 1.3714641332626343
+  },
+  {
+   "image": "3762.jpg",
+   "other": "1133.jpg",
+   "far_tokens": 0.0002555096289142966,
+   "zero_tokens": 0.05547890067100525,
+   "no_tokens": 0.02748345211148262,
+   "other_question": 1.3248528242111206
+  },
+  {
+   "image": "3889.jpg",
+   "other": "1307.jpg",
+   "far_tokens": 0.0016300150891765952,
+   "zero_tokens": 0.08275588601827621,
+   "no_tokens": 0.044839758425951004,
+   "other_question": 1.2173691987991333
+  },
+  {
+   "image": "4149.jpg",
+   "other": "1573.jpg",
+   "far_tokens": 0.0004051875730510801,
+   "zero_tokens": 0.08048909157514572,
+   "no_tokens": 0.035063985735177994,
+   "other_question": 1.3444443941116333
+  },
+  {
+   "image": "4353.jpg",
+   "other": "1858.jpg",
+   "far_tokens": 0.00034104386577382684,
+   "zero_tokens": 0.08354876935482025,
+   "no_tokens": 0.03987710922956467,
+   "other_question": 1.557707667350769
+  },
+  {
+   "image": "4486.jpg",
+   "other": "2186.jpg",
+   "far_tokens": 0.001014780718833208,
+   "zero_tokens": 0.08791931718587875,
+   "no_tokens": 0.03996583819389343,
+   "other_question": 1.454769253730774
+  },
+  {
+   "image": "4883.jpg",
+   "other": "2374.jpg",
+   "far_tokens": 0.0010238930117338896,
+   "zero_tokens": 0.0682842954993248,
+   "no_tokens": 0.029294708743691444,
+   "other_question": 1.0445709228515625
+  },
+  {
+   "image": "5227.jpg",
+   "other": "2526.jpg",
+   "far_tokens": 0.0007580973906442523,
+   "zero_tokens": 0.11162753403186798,
+   "no_tokens": 0.036323703825473785,
+   "other_question": 1.4315048456192017
+  },
+  {
+   "image": "5418.jpg",
+   "other": "2682.jpg",
+   "far_tokens": 0.0011113451328128576,
+   "zero_tokens": 0.08292635530233383,
+   "no_tokens": 0.036658141762018204,
+   "other_question": 1.028261423110962
+  }
+ ],
+ "weight_audit": {
+  "d_layers.layers.0.0.norm_latents.weight": {
+   "moved_fraction": 0.66015625,
+   "mean_abs_change": 0.00530242919921875
+  },
+  "d_layers.layers.0.0.norm_media.weight": {
+   "moved_fraction": 0.4453125,
+   "mean_abs_change": 0.00330352783203125
+  },
+  "d_layers.norm.weight": {
+   "moved_fraction": 0.294921875,
+   "mean_abs_change": 0.00131988525390625
+  },
+  "model.mm_projector.norm1.weight": {
+   "moved_fraction": 0.0061664581298828125,
+   "mean_abs_change": 2.4124979972839355e-05
+  },
+  "model.mm_projector.norm2.weight": {
+   "moved_fraction": 0.00772857666015625,
+   "mean_abs_change": 3.057718276977539e-05
+  }
+ }
+}

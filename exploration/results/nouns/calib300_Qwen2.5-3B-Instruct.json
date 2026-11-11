@@ -1,0 +1,1860 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "vocab": [
+  "airplane",
+  "airport",
+  "baseball diamond",
+  "basketball court",
+  "beach",
+  "bridge",
+  "chaparral",
+  "church",
+  "circular farmland",
+  "cloud",
+  "commercial area",
+  "container crane",
+  "dense residential",
+  "desert",
+  "forest",
+  "freeway",
+  "golf course",
+  "ground track field",
+  "harbor",
+  "helicopter",
+  "helipad",
+  "industrial area",
+  "intersection",
+  "island",
+  "lake",
+  "large vehicle",
+  "meadow",
+  "medium residential",
+  "mobile home park",
+  "mountain",
+  "overpass",
+  "palace",
+  "parking lot",
+  "plane",
+  "railway",
+  "railway station",
+  "rectangular farmland",
+  "river",
+  "roundabout",
+  "runway",
+  "sea ice",
+  "ship",
+  "small vehicle",
+  "snowberg",
+  "soccer ball field",
+  "sparse residential",
+  "stadium",
+  "storage tank",
+  "swimming pool",
+  "tennis court",
+  "terrace",
+  "thermal power station",
+  "wetland"
+ ],
+ "predictions": {
+  "0015": {
+   "question": "If you were on a quest to locate a venue where a bat-and-ball team sport thrives, which facility would you choose to explore?",
+   "free": "baseball park",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "0019": {
+   "question": "If you\u2019re looking to refine your backhand swing and serve with a training partner, what spot in this facility would you select?  ",
+   "free": "court",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0063": {
+   "question": "What locations within an industrial environment are considered optimal for implementing effective wastewater treatment solutions?  ",
+   "free": "storage ponds",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "0066": {
+   "question": "What type of facility would be most suitable for managing and recycling wastewater for an extensive community's needs?  ",
+   "free": "wastewater_treatment_plant",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "0113": {
+   "question": "When planning to hold a significant volume of liquid for industrial purposes, which location in your facility would be ideal?  ",
+   "free": "storage tank",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "0121": {
+   "question": "What particular facilities are crucial for enabling quick medical airlifts in isolated regions while ensuring safe helicopter landing and take-off zones?  ",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0177": {
+   "question": "Can you identify a site that features a specific zone for helicopter landings and takeoffs, crucial for speedy medical emergencies and VIP travel?  ",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0179": {
+   "question": "What type of infrastructure is typically situated on or adjacent to hospital premises and facilitates swift medical evacuations or emergency services?  ",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0236": {
+   "question": "What essential facilities are needed to ensure swift medical evacuations from isolated or challenging terrains in emergency situations?",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0239": {
+   "question": "What specific locations within a secluded facility are suitable for the safe landing of emergency evacuation helicopters for patient transport?",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0257": {
+   "question": "In the event of a medical crisis happening in a secluded location, what would be the best landing spot for the helicopter?  ",
+   "free": "open field",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0282": {
+   "question": "What key facilities are required to ensure safe landing and takeoff operations for helicopters and other rotary-wing aircraft?",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0287": {
+   "question": "In the event that emergency medical services must provide rapid transport for patients, which part of the infrastructure depicted is most suitable for this purpose?",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0294": {
+   "question": "What type of facility supports the vertical takeoff and landing operations for aircraft in this particular area?  ",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0297": {
+   "question": "In the event of a medical crisis necessitating quick air transport, what facility would be utilized to facilitate the prompt transfer of patients? ",
+   "free": "helicopter pad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0301": {
+   "question": "In situations where medical supplies must reach isolated areas swiftly, which infrastructure is best suited for effective air transport?",
+   "free": "helipad",
+   "vocab": "helicopter",
+   "vocab_valid": true
+  },
+  "0302": {
+   "question": "In situations where emergency medical services require quick transportation, which specific facility would offer the necessary infrastructure for this purpose?  ",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0306": {
+   "question": "In the event of an emergency requiring rescue efforts, which existing infrastructure would play the vital role in assisting air units?  ",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0308": {
+   "question": "In the event of a medical crisis occurring in a secluded region, which facility is typically relied upon for airlift services? ",
+   "free": "helicopter pad",
+   "vocab": "helicopter",
+   "vocab_valid": true
+  },
+  "0312": {
+   "question": "What specific facilities in this region are designated for enabling aerial emergency medical evacuations when necessary?  ",
+   "free": "helipad",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "0316": {
+   "question": "What location within this region offers the highest level of safety for the takeoff and landing of large cargo and passenger planes? ",
+   "free": "runway",
+   "vocab": "runway",
+   "vocab_valid": true
+  },
+  "0341": {
+   "question": "What type of infrastructure plays a vital role in ensuring safe takeoffs and landings for planes in both civilian and military aviation?",
+   "free": "runway",
+   "vocab": "runway",
+   "vocab_valid": true
+  },
+  "0349": {
+   "question": "What key infrastructure elements play a vital role in facilitating the safe and efficient takeoffs and landings of aircraft?",
+   "free": "runways",
+   "vocab": "runway",
+   "vocab_valid": true
+  },
+  "0436": {
+   "question": "In light of expected air traffic growth over the next ten years, which infrastructure improvements should be implemented to maintain safe operations?",
+   "free": "runway",
+   "vocab": "airport",
+   "vocab_valid": true
+  },
+  "0448": {
+   "question": "In the event of an approaching severe storm, what infrastructure should activate emergency protocols to safeguard aviation operations?",
+   "free": "runway",
+   "vocab": "airport",
+   "vocab_valid": true
+  },
+  "0538": {
+   "question": "If you were planning a fun community sports day with enough seating and play area, which venue would be ideal?  ",
+   "free": "parking lot",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0555": {
+   "question": "What kind of facilities would be ideal for hosting a neighborhood sports event centered around ball-hitting and catching activities?",
+   "free": "sports field",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "0595": {
+   "question": "If you envisioned hosting a local baseball game for the community, what location would you choose for players and spectators?",
+   "free": "parking lot",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "0596": {
+   "question": "What types of facilities would be best for a community looking to hold an engaging sports event for spectators?",
+   "free": "stadiums",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "0613": {
+   "question": "What specific area in this facility plays a crucial role in allowing a coach to effectively guide a player on pitching skills?  ",
+   "free": "training dome",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "0631": {
+   "question": "What specific location is designed for hosting various sports events, ideally needing a wide and level grassy area for athletes?  ",
+   "free": "stadium",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0669": {
+   "question": "What type of recreational venue is specifically designed for organized team sports that include batting, pitching, and running bases?",
+   "free": "baseball park",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "0689": {
+   "question": "Which community recreation center seems to uphold its lawn in excellent shape, promoting a sport that fosters teamwork and physical fitness?",
+   "free": "parking lot",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0691": {
+   "question": "What specific site in the vicinity is dedicated to team sports and also needs upkeep tasks like mowing and marking lines?  ",
+   "free": "sports field",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "0706": {
+   "question": "If you were tasked with arranging a neighborhood softball match, which location would you choose for the bases and pitcher's mound?",
+   "free": "playground",
+   "vocab": "baseball diamond",
+   "vocab_valid": true
+  },
+  "0723": {
+   "question": "What are some places where individuals can engage in competitive outdoor settings to practice their free-throw shooting skills?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0744": {
+   "question": "What local place is probably the best option for parking for guests participating in leisure activities around here?  ",
+   "free": "parking lot",
+   "vocab": "parking lot",
+   "vocab_valid": true
+  },
+  "0745": {
+   "question": "What kinds of establishments can typically be observed in the vicinity of schools, parks, or recreational spaces that encourage community interaction through outdoor activities?",
+   "free": "cafes",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0748": {
+   "question": "What location typically includes expansive rectangular fields with defined lines and hoops situated at both ends for sporting events?  ",
+   "free": "football_field",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "0755": {
+   "question": "Which facility would be best for someone interested in playing a team sport that uses a ball and hoop?",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0764": {
+   "question": "If you were looking to improve your three-point shooting technique, which location would you choose for practice?  ",
+   "free": "sideline",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0768": {
+   "question": "If you were to sharpen your basketball shooting skills, where would be the best place equipped with the right amenities?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0796": {
+   "question": "What are the nearby venues to the school that can effectively host sports activities while also providing suitable parking spaces?  ",
+   "free": "parking lot",
+   "vocab": "parking lot",
+   "vocab_valid": true
+  },
+  "0816": {
+   "question": "What types of facilities in local parks are most appealing to younger crowds seeking community sports activities during the afternoon in urban areas?  ",
+   "free": "playgrounds",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0823": {
+   "question": "What part of this setting would best accommodate a youth-oriented sports event aimed at promoting physical fitness and activity?",
+   "free": "playground",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0829": {
+   "question": "When aiming for a three-point shot, can you identify the position of the semicircular arc within the basketball court? ",
+   "free": "free-throw lane",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0832": {
+   "question": "What area within this park offers the best combination of space and facilities for hosting a community sports gathering effectively?",
+   "free": "playground",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "0835": {
+   "question": "What area on the university grounds is primarily designated for conducting physical education classes and various sports events?  ",
+   "free": "sports field",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "0836": {
+   "question": "What area in this park would best facilitate a community sports event aimed at bringing residents together for fun and interaction?  ",
+   "free": "playground",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0851": {
+   "question": "If you were looking to enhance your dribbling and shooting skills, which facility would be best suited and where might it be found?",
+   "free": "sports field",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0858": {
+   "question": "What types of locations are commonly situated in city landscapes and frequently draw kids, teenagers, and sports lovers for leisure?",
+   "free": "playgrounds",
+   "vocab": "soccer ball field",
+   "vocab_valid": true
+  },
+  "0862": {
+   "question": "Where can a team find a suitable location to play a sport that includes a hoop and a ball?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0869": {
+   "question": "In planning a local summer camp focused on honing three-point shooting skills, what venue would you select for the event?  ",
+   "free": "parking lot",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0881": {
+   "question": "What nearby facility close to the primary recreational zone would be ideal for hosting a casual team sport match on outdoor courts?  ",
+   "free": "courthouse",
+   "vocab": "tennis court",
+   "vocab_valid": true
+  },
+  "0901": {
+   "question": "In this picture, where would you head to play a ball game that requires teams and hoops for scoring?  ",
+   "free": "basketball court",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0904": {
+   "question": "In order to host a successful three-on-three tournament, what type of venue would be the most suitable?",
+   "free": "parking lot",
+   "vocab": "basketball court",
+   "vocab_valid": true
+  },
+  "0918": {
+   "question": "What are some popular destinations where visitors can relax on the beach, swim in the ocean, and create sand sculptures during summer?  ",
+   "free": "beachfront",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "0924": {
+   "question": "What locations are popular for individuals to come together and partake in leisure activities by the seaside, while appreciating coastal ecosystems?",
+   "free": "beach resorts",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "0949": {
+   "question": "Which location would you choose for enjoying both sunbathing and swimming, providing a perfect blend of leisure and refreshment by the shore?  ",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "0962": {
+   "question": "What locations offer opportunities for individuals to partake in leisure activities like swimming, sunbathing, and beach volleyball while enjoying calming ocean effects?  ",
+   "free": "beach",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "0971": {
+   "question": "Where is the ideal spot for individuals seeking to bask in the sun while listening to the soothing sound of ocean waves?  ",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "1032": {
+   "question": "If a group of friends is eager to find a spot for swimming and sunbathing, which natural location would they likely select?  ",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "1042": {
+   "question": "What natural element provides the ideal setting for vacationers looking to unwind by the waves while constructing sandcastles?  ",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "1071": {
+   "question": "If you had the chance to design a seaside resort, which spot would best cater to sunbathing and swimming fun, and why?",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "1078": {
+   "question": "If tasked with designing a leisure space for sunbathing and swimming, which type of natural scenery would inspire your choice?",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "1127": {
+   "question": "What strategies can be employed to facilitate secure and effective movement over waterways in less populated regions?  ",
+   "free": "river",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "1128": {
+   "question": "What type of structure allows individuals to traverse a body of water safely and effectively, linking two distinct regions together?  ",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1135": {
+   "question": "What kind of construction enables individuals to traverse a body of water, linking two distinct regions for transportation and commerce?  ",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1154": {
+   "question": "What kind of construction allows cars and trucks to travel over water between the shore and the inland regions, enhancing transportation?",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1246": {
+   "question": "Which essential structure ensures that both everyday commuters and emergency vehicles can securely traverse the river?",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1253": {
+   "question": "In regions susceptible to flooding, which types of infrastructure require ongoing upkeep to guarantee secure travel amid intense rainstorms?  ",
+   "free": "roads",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1282": {
+   "question": "What features of the design contribute to the security of heavy traffic flow, particularly in the face of natural disasters like flooding?  ",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1284": {
+   "question": "What specific site necessitates the building of an overpass to guarantee safe passage across a river for pedestrians and vehicles alike?  ",
+   "free": "bridge",
+   "vocab": "overpass",
+   "vocab_valid": true
+  },
+  "1302": {
+   "question": "What type of infrastructure might be essential for linking the separated regions to facilitate transportation and daily movement for locals? ",
+   "free": "road",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1308": {
+   "question": "Which essential infrastructure elements facilitate smooth traffic movement and link the two parts of the settlement divided by a natural barrier?",
+   "free": "bridges",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1343": {
+   "question": "In what locations within a community can individuals come together for worship, celebrations, and important life events, enriched by historical architecture?",
+   "free": "churches",
+   "vocab": "church",
+   "vocab_valid": true
+  },
+  "1351": {
+   "question": "What kind of structure functions as the primary venue for spiritual gatherings and local activities in the depicted setting?  ",
+   "free": "temple",
+   "vocab": "church",
+   "vocab_valid": true
+  },
+  "1384": {
+   "question": "If you're in search of a place famous for its steeple and Sunday worship, what facility in this image should you consider?",
+   "free": "church",
+   "vocab": "church",
+   "vocab_valid": true
+  },
+  "1428": {
+   "question": "What site in this region acts as the focal point for local gatherings, spiritual ceremonies, and community contemplation? ",
+   "free": "temple",
+   "vocab": "church",
+   "vocab_valid": true
+  },
+  "1440": {
+   "question": "When seeking a vibrant weekly community gathering located near a busy street, what type of establishment should one consider?  ",
+   "free": "parking lot",
+   "vocab": "commercial area",
+   "vocab_valid": true
+  },
+  "1474": {
+   "question": "Which type of venue would be ideal for hosting a community event featuring prayer gatherings indoors and a shared meal afterward?  ",
+   "free": "church",
+   "vocab": "church",
+   "vocab_valid": true
+  },
+  "1482": {
+   "question": "In the event that you sought a serene environment conducive to deep thinking and meditation, what type of space would best serve you and why?",
+   "free": "forest",
+   "vocab": "forest",
+   "vocab_valid": true
+  },
+  "1486": {
+   "question": "If you were to organize a community event, which venue with unique architectural design would you consider the best choice?",
+   "free": "church",
+   "vocab": "church",
+   "vocab_valid": true
+  },
+  "1500": {
+   "question": "In the event of a significant local celebration, which venue would most probably act as the main gathering place for the community?",
+   "free": "parking lot",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "1529": {
+   "question": "In order to host a significant community gathering, where would you recommend for ample indoor space and sufficient parking in the image?  ",
+   "free": "parking lot",
+   "vocab": "commercial area",
+   "vocab_valid": true
+  },
+  "1532": {
+   "question": "If an individual is planning a community event in a venue known for large crowds and has sufficient parking space, what location should they choose?  ",
+   "free": "parking lot",
+   "vocab": "commercial area",
+   "vocab_valid": true
+  },
+  "1534": {
+   "question": "Imagine you're planning a Sunday outing to a location where community members frequently come together. Which venue would you select, and what motivates your choice?  ",
+   "free": "parking lot",
+   "vocab": "church",
+   "vocab_valid": true
+  },
+  "1562": {
+   "question": "What kind of facility might be constructed nearby to control water levels in this agricultural area adjacent to a large water body?  ",
+   "free": "dam",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "1622": {
+   "question": "What essential system is needed to effectively manage water flow and ensure stability during periods of intense rainfall impacting agricultural lands? ",
+   "free": "farmlands",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "1655": {
+   "question": "What could be the main factor influencing the modified river flow observed downstream of the substantial water-retaining structure amidst the nearby farmland?",
+   "free": "reservoir",
+   "vocab": "river",
+   "vocab_valid": true
+  },
+  "1699": {
+   "question": "What kinds of structures in this area can alter water levels, produce electricity, and affect local communities and farming practices?",
+   "free": "dams",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "1719": {
+   "question": "In the event of a flood, what consequences could arise for the nearby agricultural and aquatic environments if this structure collapses?",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1721": {
+   "question": "What factors could have influenced the creation of this barrier structure, given the nearby expansive water source and its natural environment?  ",
+   "free": "coastal wall",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "1737": {
+   "question": "What type of facility depicted in the image is best suited for extensive manufacturing operations, and what factors support your answer?  ",
+   "free": "manufacturing plant",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "1782": {
+   "question": "What kind of facility is typically designed to accommodate the storage of raw materials while also housing substantial manufacturing machinery for local industries?  ",
+   "free": "factory",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "1787": {
+   "question": "What component depicted in the illustration do you think plays a key role in overseeing the assembly line and production equipment for goods?",
+   "free": "factory rooftops",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "1788": {
+   "question": "What features in this image suggest that a particular location could serve as an industrial production site, especially regarding shape and parking?",
+   "free": "industrial complex",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "1818": {
+   "question": "What kind of equipment can be employed to greatly improve the productivity of manufacturing processes in a facility?",
+   "free": "factory rooftops",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "1821": {
+   "question": "What kind of facility shown in the image appears to be engaged in extensive manufacturing operations based on its large dimensions and storage spaces?",
+   "free": "manufacturing plant",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "1829": {
+   "question": "Considering the arrangement and configuration visible in the remote sensing image, what locations might be designated for receiving and processing raw materials before production starts?  ",
+   "free": "warehouse",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "1852": {
+   "question": "What kind of structure might you choose to maintain stable weather environments for plants, particularly in areas with extreme weather conditions?",
+   "free": "wind farm",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "1868": {
+   "question": "What would be an ideal site for conducting agricultural research and development throughout the year, particularly in regions experiencing severe seasonal weather variations?  ",
+   "free": "field",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "1884": {
+   "question": "Which types of infrastructure could significantly enhance the growing season for different crops while shielding them from harsh weather conditions in this region?  ",
+   "free": "greenhouses",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "1948": {
+   "question": "If you aim to grow vegetables throughout the year using regulated environmental settings, what location would you choose for this?",
+   "free": "farmhouse",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "1975": {
+   "question": "When considering winter crop cultivation, what type of structure provides the best environment for optimal growth conditions?",
+   "free": "greenhouse",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "1976": {
+   "question": "In a scenario where a region seeks to enhance agricultural output throughout the year, which areas would see the most farming activities?",
+   "free": "farmland",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "1982": {
+   "question": "What type of facility would best support consistent food production throughout the year in a community aiming to boost local agriculture?  ",
+   "free": "farmstead",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "1983": {
+   "question": "If a community wishes to boost its vegetable yield throughout the year, which specific facility would be most beneficial for them?",
+   "free": "greenhouse",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "1995": {
+   "question": "In a scenario where this site focuses on sustainable agriculture, what type of structure would ensure ideal growing conditions throughout the year?  ",
+   "free": "greenhouse",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "2005": {
+   "question": "What frameworks can be implemented to lengthen the crop growing season in a region focused on boosting its agricultural yield?  ",
+   "free": "field",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "2080": {
+   "question": "In the event of an incoming earthquake, which open space would provide the best refuge from potential structural dangers?",
+   "free": "parking lot",
+   "vocab": "ground track field",
+   "vocab_valid": true
+  },
+  "2180": {
+   "question": "If you were preparing for a 100-meter dash, what type of training facility would you choose to enhance your performance?  ",
+   "free": "track",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "2190": {
+   "question": "What venue would be the best choice for organizing a significant community sports event that needs plenty of spectator seating and nearby parking?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "2221": {
+   "question": "What strategies can be implemented to improve the safety of pedestrians navigating through busy city streets with multiple lanes and traffic signals?  ",
+   "free": "street",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2227": {
+   "question": "In urban settings, what specific locations allow drivers to safely switch lanes or alter their routes to connect with various roads?",
+   "free": "crosswalk",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2231": {
+   "question": "What urban element frequently acts as a guide for navigation and manages vehicle movement to alleviate traffic jams in cities?  ",
+   "free": "road",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "2251": {
+   "question": "What specific area should be prioritized for enhanced pedestrian safety initiatives to minimize traffic incidents in this urban development project?  ",
+   "free": "pedestrian zone",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2259": {
+   "question": "In what ways can effective urban planning enhance the safety of pedestrians navigating crossings during peak traffic hours at this site?",
+   "free": "crossing",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2334": {
+   "question": "What specific spots within the mentioned region could benefit from increased traffic management to improve safety for pedestrians and reduce mishaps?",
+   "free": "road intersections",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2384": {
+   "question": "What specific part of an urban transit system demands meticulous coordination of traffic signals to alleviate congestion and safeguard pedestrians?  ",
+   "free": "crosswalk",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2394": {
+   "question": "Which specific area necessitates the setup of traffic lights to control the transportation flow and enhance safety for all road users?",
+   "free": "crosswalk",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2397": {
+   "question": "What strategies are in place in this area to efficiently regulate pedestrian and vehicle movement while maintaining safety during busy times?",
+   "free": "pedestrian zone",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2399": {
+   "question": "What strategies can be implemented to enhance pedestrian safety at intersections where various roads meet, taking into account their intended uses?",
+   "free": "intersection",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "2410": {
+   "question": "What specific areas should be prioritized for establishing traffic control systems that enhance vehicle safety while reducing the likelihood of accidents?  ",
+   "free": "road_network",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "2442": {
+   "question": "What is the term for a landform that is entirely encircled by water and generally smaller than a continent?  ",
+   "free": "island",
+   "vocab": "island",
+   "vocab_valid": true
+  },
+  "2445": {
+   "question": "What would be the best site for establishing a coastal observation facility that can efficiently oversee marine traffic and environmental factors?  ",
+   "free": "coastline",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2458": {
+   "question": "What kind of landform is usually encircled by water, serving as a natural haven for various unique wildlife species?",
+   "free": "lake",
+   "vocab": "island",
+   "vocab_valid": true
+  },
+  "2474": {
+   "question": "What type of landform, often completely encased by water, serves as a sanctuary for distinct ecological systems?",
+   "free": "lake",
+   "vocab": "wetland",
+   "vocab_valid": true
+  },
+  "2500": {
+   "question": "What locations are typically characterized by distinctive ecosystems that are fully encircled by water and unreachable by land routes?  ",
+   "free": "island",
+   "vocab": "island",
+   "vocab_valid": true
+  },
+  "2508": {
+   "question": "What are some destinations renowned for their isolated beaches adorned with vibrant coral reefs in a lush tropical environment?  ",
+   "free": "beach\u7901\u5c9b",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2512": {
+   "question": "What kind of landform is usually encircled by water, offering ideal environments for diverse animals and vegetation to thrive?  ",
+   "free": "lake",
+   "vocab": "wetland",
+   "vocab_valid": true
+  },
+  "2517": {
+   "question": "What place is expected to provide both land and ocean environments that support distinctive wildlife species?",
+   "free": "island",
+   "vocab": "wetland",
+   "vocab_valid": true
+  },
+  "2532": {
+   "question": "In this image, which secluded location do you think a flock of sea birds might select for their nesting due to safety?",
+   "free": "island beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2534": {
+   "question": "What unique natural landscape would provide a secluded environment perfect for supporting a variety of bird species?  ",
+   "free": "mountainous wilderness",
+   "vocab": "chaparral",
+   "vocab_valid": true
+  },
+  "2567": {
+   "question": "What natural bodies of water are often enjoyed for leisure activities like fishing and boating while providing a habitat for diverse aquatic life?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2569": {
+   "question": "In which location within this region can you discover a natural element that balances the local climate, supports aquatic habitats, and caters to recreational activities for locals?",
+   "free": "parking lot",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "2576": {
+   "question": "What natural setting offers a crucial environment for various aquatic life forms and acts as a leisure space for local residents?  ",
+   "free": "lake",
+   "vocab": "wetland",
+   "vocab_valid": true
+  },
+  "2582": {
+   "question": "What location would be ideal for engaging in leisure activities like boating or fishing, while also enhancing the ecosystem and offering beautiful scenery?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2589": {
+   "question": "What are the most popular spots for local residents to enjoy activities like fishing or boating on weekends, enhancing community bonds and tourism?",
+   "free": "riverbanks",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2642": {
+   "question": "If a farmer is considering using a natural source for irrigation on their land, what would be the best feature to select, and for what reasons?  ",
+   "free": "river",
+   "vocab": "wetland",
+   "vocab_valid": true
+  },
+  "2650": {
+   "question": "What local spots offer opportunities for recreational fishing while allowing visitors to appreciate the beautiful aquatic wildlife in the area?",
+   "free": "lake",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2651": {
+   "question": "In the context of an ecological restoration initiative, what aspect of this site could enhance the quality of the water?",
+   "free": "river",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2656": {
+   "question": "What natural element in this region could potentially provide a home to diverse aquatic life while also aiding groundwater replenishment to benefit the ecosystem?",
+   "free": "pond",
+   "vocab": "wetland",
+   "vocab_valid": true
+  },
+  "2664": {
+   "question": "What natural resource should the local factory consider using if it decides to install a water cooling system for its operations?",
+   "free": "river",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2667": {
+   "question": "In designing a recreational fishing zone, which aspect shown in this picture would you prioritize as the core element?  ",
+   "free": "lake",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2672": {
+   "question": "In this landscape, which natural element would serve as the main resource for a designated fishing recreational area?  ",
+   "free": "river",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "2714": {
+   "question": "When seeking a sustainable water supply for farming, what natural characteristic would you consider utilizing for irrigation purposes?  ",
+   "free": "river",
+   "vocab": "meadow",
+   "vocab_valid": true
+  },
+  "2727": {
+   "question": "If locals are looking to participate in outdoor activities surrounded by beautiful waterfront scenery, what spot would be their top pick?  ",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "2735": {
+   "question": "What are the safest locations for securely mooring boats in coastal regions to shield them from severe weather threats?  ",
+   "free": "beachfront docks",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2770": {
+   "question": "What types of facilities can be designed to enhance the efficiency of loading and unloading cargo from maritime vessels?",
+   "free": "port\u8bbe\u65bd",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "2789": {
+   "question": "What location along the riverbank would provide the best safety for loading and unloading small boats?  ",
+   "free": "beachfront",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2802": {
+   "question": "What location is commonly designated for mooring vessels and frequently facilitates both commercial fishing and leisure water activities to boost local tourism?",
+   "free": "marina",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2824": {
+   "question": "What type of facilities are available in coastal industrial areas to accommodate the docking and unloading of heavy cargo ships?  ",
+   "free": "docking terminals",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "2825": {
+   "question": "What facility plays a crucial role in facilitating the transfer of goods and travelers between sea vessels and the surrounding community, enhancing economic activity?",
+   "free": "port",
+   "vocab": "airport",
+   "vocab_valid": true
+  },
+  "2832": {
+   "question": "What locations in this seaside region offer boat rentals and opportunities for tourists to engage in aquatic leisure pursuits?  ",
+   "free": "beachfront shops",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2843": {
+   "question": "What architectural feature plays a vital role in allowing boats to dock while promoting marine commerce and boosting local tourism in coastal areas?  ",
+   "free": "port fa\u00e7ade",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2866": {
+   "question": "Can you suggest locations where there are facilities enabling boat docking and promoting recreational fishing in proximity to residential neighborhoods?  ",
+   "free": "beachfront docks",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2867": {
+   "question": "What key coastal facilities play a vital role in enabling the movement of goods and passengers to and from large ships, enhancing local commerce?",
+   "free": "ports",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "2889": {
+   "question": "What site near the shoreline offers the best combination of easy access and shield from severe weather for mooring small to medium boats?  ",
+   "free": "boat ramp",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2925": {
+   "question": "What would be the most suitable spot for effectively unloading fishing catches near the coast?",
+   "free": "beach",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2927": {
+   "question": "What location would best suit fishing lovers looking for a safe spot to moor their boats after an adventurous day on the water?",
+   "free": "lake",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2935": {
+   "question": "What is the most suitable spot for securely docking boats that also offers convenient proximity to facilities for marine-related activities? ",
+   "free": "boat ramp",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2938": {
+   "question": "What type of facility might cater to recreational fishing enthusiasts while also providing docking solutions for boats and supporting local commerce?",
+   "free": "fish camp",
+   "vocab": "harbor",
+   "vocab_valid": true
+  },
+  "2989": {
+   "question": "What essential infrastructure supports the efficient movement of agricultural products from this area to cities and urban centers?  ",
+   "free": "road_network",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "3011": {
+   "question": "What key infrastructure plays an essential role in facilitating the transportation of cargo over long distances and influencing economic growth in the area?",
+   "free": "roads",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "3017": {
+   "question": "What types of transportation facilities require urgent attention for repair to facilitate smoother cargo movement throughout this area?",
+   "free": "road_network",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "3027": {
+   "question": "What effects does this transportation infrastructure have on the economic development of the area and the commuting ease for locals?  ",
+   "free": "road_network",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3043": {
+   "question": "In order to enhance the efficiency of freight transport across key metropolitan areas, what kind of infrastructure should be prioritized?  ",
+   "free": "road_network",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3072": {
+   "question": "In a scenario where you have to move substantial amounts of products over long distances, which infrastructure would ensure maximum efficiency due to its layout and connectivity?",
+   "free": "highway",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3078": {
+   "question": "What type of infrastructure should residents consider using to ensure the fast and efficient transport of heavy goods between regions?  ",
+   "free": "road",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "3081": {
+   "question": "To ensure the smooth movement of goods over long distances while avoiding traffic jams, what type of infrastructure is required?  ",
+   "free": "road",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3082": {
+   "question": "In order to maximize logistics efficiency, what transportation infrastructure should a manufacturer adopt for swiftly delivering products to far-off urban areas?",
+   "free": "road_network",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3125": {
+   "question": "What key infrastructure plays a vital role in ensuring that freight transportation remains uninterrupted within this industrial zone?",
+   "free": "road",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "3139": {
+   "question": "What natural landmark in this area plays a crucial role in shaping the climate and supporting agricultural water supply?",
+   "free": "waterfall",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "3166": {
+   "question": "What natural element in the ecosystem is most probable to nurture a thriving fish community and provide fresh water?",
+   "free": "river",
+   "vocab": "river",
+   "vocab_valid": true
+  },
+  "3267": {
+   "question": "What natural element is most likely the main contributor to agricultural watering needs and aids the ecosystem nearby? ",
+   "free": "waterbody",
+   "vocab": "wetland",
+   "vocab_valid": true
+  },
+  "3289": {
+   "question": "Which natural landmark in this area is most capable of supplying freshwater essential for local farms and ecosystems?  ",
+   "free": "river",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "3297": {
+   "question": "What strategies can be implemented to help vehicles maneuver through intersections featuring several entry and exit points for better traffic management?  ",
+   "free": "intersection",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3327": {
+   "question": "What location within the transportation system allows drivers to navigate intersections with enhanced safety and efficiency through minimized conflict points?  ",
+   "free": "interchange",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3332": {
+   "question": "What type of infrastructure is typically implemented in urban planning to enhance traffic flow and ensure efficient vehicle navigation at intersections?  ",
+   "free": "traffic light",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3341": {
+   "question": "What type of road infrastructure is most effective in enhancing traffic movement and reducing accidents at busy intersections?",
+   "free": "interchange",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3351": {
+   "question": "What kind of infrastructure design can optimize traffic movement and alleviate vehicle congestion at city intersections?",
+   "free": "intersection",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3365": {
+   "question": "What impact could the introduction of this junction design in a suburban area have on both traffic movement and overall safety?",
+   "free": "road junction",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3368": {
+   "question": "What kind of traffic system helps manage vehicle movement yet may bewilder drivers who are not accustomed to its operation?  ",
+   "free": "road network",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3381": {
+   "question": "What type of traffic management system is generally implemented at junctions to enhance safety and minimize collision risks?",
+   "free": "junction controls",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3431": {
+   "question": "With the aim of enhancing traffic management and alleviating congestion, what central location could a local government choose to facilitate safe, multi-directional vehicle flow?",
+   "free": "intersection",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3452": {
+   "question": "What changes should city planners implement to enhance traffic movement and alleviate congestion in this particular area?",
+   "free": "road_network",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3457": {
+   "question": "In an effort to alleviate traffic jams and enhance vehicle flow, what infrastructure modifications would urban planners suggest for this intersection?",
+   "free": "traffic lights",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3465": {
+   "question": "In order to boost the traffic flow efficiency in the nearby industrial zone, what key infrastructure component should we focus on improving?  ",
+   "free": "road_network",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "3470": {
+   "question": "In the context of enhancing traffic efficiency, what types of infrastructure would facilitate smooth vehicle movement and alleviate congestion at city intersections?",
+   "free": "traffic lights",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "3480": {
+   "question": "In the event of a substantial rise in traffic in this zone, what infrastructure is essential for ensuring fluid vehicle flow and avoiding backups? ",
+   "free": "road",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "3493": {
+   "question": "Given the balanced layout and consistent intervals observed in the picture, what kind of human-built structure might be aiding in renewable energy generation locally?  ",
+   "free": "wind farm",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "3498": {
+   "question": "What could explain the decreased reliance on fossil fuel-powered electricity among the structures in the vicinity?",
+   "free": "windfarm",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "3511": {
+   "question": "In evaluating the most appropriate landscapes for this energy facility, which type of land utilization would ensure uninterrupted functionality in the shown area?  ",
+   "free": "reservoir",
+   "vocab": "commercial area",
+   "vocab_valid": true
+  },
+  "3550": {
+   "question": "In a scenario where multiple elongated structures receive significant shade throughout the day, what nearby activities may be impacted to a greater extent?",
+   "free": "buildings",
+   "vocab": "helipad",
+   "vocab_valid": true
+  },
+  "3599": {
+   "question": "What sustainable methods could be used to fulfill the energy needs of a local sports facility, considering the rooftop structures of surrounding buildings?  ",
+   "free": "rooftops",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3603": {
+   "question": "Which specific types of infrastructure in this area could enhance the clean energy provision for local farming, taking into account the layout and alignment of buildings?  ",
+   "free": "wind turbines",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "3633": {
+   "question": "In what ways could overhead structures be fulfilling the energy demands of local communities, and what environmental factors should be taken into account?",
+   "free": "buildings",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "3667": {
+   "question": "What are the popular locations in the city where individuals can enjoy competitive sports along with significant community gatherings?  ",
+   "free": "parking lot",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3669": {
+   "question": "What outdoor venue would you choose for taking a sizeable crowd to enjoy a live concert or sports competition?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3680": {
+   "question": "In what venue could we effectively accommodate a significant sports competition, ensuring there is enough seating and great sightlines for fans?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3683": {
+   "question": "What location would provide ideal facilities, including sufficient seating capacity and a primary field, for a major sports event?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3684": {
+   "question": "What are the popular venues where significant numbers of people come together to enjoy sports and various community festivities, including food stalls and entertainment?  ",
+   "free": "sports arena",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3708": {
+   "question": "What locations in this community are popular among locals for viewing significant sports events or live concerts?  ",
+   "free": "parking lot",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3739": {
+   "question": "In planning a massive public gathering, what type of venue is essential for hosting a large number of attendees?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3772": {
+   "question": "In the event of frequent large community gatherings, what key infrastructure would be necessary to effectively handle the influx of attendees?  ",
+   "free": "stadium",
+   "vocab": "airport",
+   "vocab_valid": true
+  },
+  "3782": {
+   "question": "In the event of hosting a significant sports tournament at this location, where would be the best spots for large screens?",
+   "free": "stadium seating",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3793": {
+   "question": "In an urban environment seeking to boost community sports, what type of facility should be given priority for hosting large events?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3794": {
+   "question": "If you were responsible for coordinating a major sports tournament, which facilities and services would be crucial for its success?  ",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3798": {
+   "question": "What key infrastructure is necessary for a city aspiring to successfully host major international sports events and manage large audiences?",
+   "free": "stadium",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "3827": {
+   "question": "What key infrastructure plays a crucial role in managing the local liquefied natural gas (LNG) supply for energy reliability during peak usage?",
+   "free": "gas terminal",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3828": {
+   "question": "What kind of infrastructure is crucial for effectively handling and storing significant amounts of liquids in industrial plants or mining operations?  ",
+   "free": "storage tank",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3866": {
+   "question": "What locations would be the safest for a neighborhood to store significant amounts of liquid fuels for industrial purposes while minimizing environmental and fire hazards?",
+   "free": "storage tanks",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3880": {
+   "question": "What type of facility is commonly employed to safely house substantial volumes of chemicals for use in industrial applications?  ",
+   "free": "warehouse",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3891": {
+   "question": "What infrastructure components require frequent checks to ensure there are no leaks or spills that could harm the environment?",
+   "free": "pipelines",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3898": {
+   "question": "What is the best site to examine for possible leaks that might endanger the environment, and how often should inspections occur?  ",
+   "free": "oil rig",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3916": {
+   "question": "What kind of facility is essential in the planning phase to ensure a consistent availability of stored resources in industrial zones?  ",
+   "free": "warehouse",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3922": {
+   "question": "What key infrastructure elements within this industrial site are essential for effectively managing hazardous liquids and reducing potential environmental hazards?  ",
+   "free": "storage tanks",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3936": {
+   "question": "What kind of infrastructure is crucial for securely storing significant volumes of liquids while avoiding leaks and protecting the environment?",
+   "free": "storage tank",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3940": {
+   "question": "What structure in the vicinity needs regular oversight to mitigate the risks of leakage that could impact nearby water sources and soil integrity?  ",
+   "free": "pipeline",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3949": {
+   "question": "Which item is essential for the secure management of unstable materials in an industrial environment?  ",
+   "free": "storage\u4ed3",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3953": {
+   "question": "What type of infrastructure is critical for the secure containment of significant amounts of dangerous liquids, necessitating routine inspections to avoid leaks?  ",
+   "free": "storage tank",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3964": {
+   "question": "What factors regarding nearby residential zones are taken into account when establishing safe distances from hazards linked to this facility?  ",
+   "free": "residential zone",
+   "vocab": "dense residential",
+   "vocab_valid": true
+  },
+  "3970": {
+   "question": "What measures can an operator implement to maintain the safety and stability of the structure amidst a powerful earthquake event?",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "3981": {
+   "question": "What type of infrastructure in countryside regions would serve as a reservoir for significant water supplies needed for farming in drought periods?",
+   "free": "reservoir pond farmpond",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "3989": {
+   "question": "In the event that construction diverts the transportation route near your facility, what steps should you implement to ensure safe operations?",
+   "free": "road",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "4005": {
+   "question": "In a wildfire emergency, what specific facility situated far from neighborhoods would responders depend on for substantial water supplies?",
+   "free": "firetower",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "4007": {
+   "question": "What infrastructure considerations should an industrial facility evaluate to ensure they have adequate capacity and safety for increased chemical production storage?",
+   "free": "storage tanks",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "4015": {
+   "question": "What type of establishment might endanger surrounding neighborhoods if there were to be a collapse or a spill of toxic substances?",
+   "free": "chemical plant",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "4029": {
+   "question": "What type of infrastructure is mainly utilized to gather and conserve significant amounts of water crucial for the farming depicted here?",
+   "free": "reservoir",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "4039": {
+   "question": "What key sites in the area should we prioritize for evaluating how leaks might affect surrounding homes, considering their role in resource storage?",
+   "free": "storage tanks",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "4053": {
+   "question": "What vital infrastructure exists in this area for the storage of considerable amounts of industrial liquids, and how does it influence local production planning?",
+   "free": "tank farm",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "4056": {
+   "question": "What type of structure depicted in this picture is crucial for the storage of significant quantities of liquids related to energy or industrial activities?  ",
+   "free": "tank farm",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "4147": {
+   "question": "What type of infrastructure is crucial for transforming high-voltage electrical power into a lower voltage suitable for distribution in residential areas?  ",
+   "free": "substation",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "4160": {
+   "question": "In the event that maintenance is required, where should employees cut off the electrical supply to ensure their safety?  ",
+   "free": "power line",
+   "vocab": "runway",
+   "vocab_valid": true
+  },
+  "4185": {
+   "question": "In the event of a flood, which specific infrastructure elements are vital for ensuring the stability of regional power supply?",
+   "free": "substations",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "4201": {
+   "question": "What kind of infrastructure is essential for maintaining a steady flow of electricity to surrounding homes and businesses?",
+   "free": "power line",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "4228": {
+   "question": "In the event of an unexpected blackout in the neighborhood below, which organization would likely be tasked with restoring power swiftly?  ",
+   "free": "house rooftops",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "4274": {
+   "question": "What key infrastructure is necessary for the effective management and distribution of electricity in isolated regions to enhance local growth and avoid power interruptions?",
+   "free": "power plant",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "4312": {
+   "question": "What type of leisure facility requires life-saving gear and ongoing maintenance to guarantee safety for all its visitors and users?  ",
+   "free": "beachfront park",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4325": {
+   "question": "What public facility located within a heavily populated city must oversee water quality to ensure safe recreational options for locals?  ",
+   "free": "water plant",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "4339": {
+   "question": "What type of facilities are dedicated to offering aquatic recreational activities and swimming instruction in city settings, promoting fitness and community bonding?  ",
+   "free": "pools",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4342": {
+   "question": "What would be the most suitable venue for hosting swimming lessons for novices, prioritizing both safety and ease of access?  ",
+   "free": "pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4352": {
+   "question": "What local facility serves as a summer destination for families seeking water activities and simultaneously hosts competitive swimming events for the community?  ",
+   "free": "beach resort",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "4357": {
+   "question": "What areas are available within a recreational center for participating in water-based workouts and enjoying some leisurely time?",
+   "free": "swimming pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4361": {
+   "question": "What local spots do community members have for summer recreational water activities and opportunities to connect with each other?  ",
+   "free": "beach",
+   "vocab": "beach",
+   "vocab_valid": true
+  },
+  "4388": {
+   "question": "What are the primary places where local communities frequently gather for recreational swimming pursuits during the warm summer months?",
+   "free": "beaches",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4391": {
+   "question": "What local facilities are available for individuals interested in aquatic training and exercises in their community?  ",
+   "free": "pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4393": {
+   "question": "What local facilities offer opportunities for individuals to improve their swimming skills or participate in competitive swim events nearby?  ",
+   "free": "pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4406": {
+   "question": "What would be the perfect setting for a venue that offers swimming practice, hosts aquatic sports competitions, and facilitates swimming instruction safely?",
+   "free": "pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4407": {
+   "question": "What are the best local venues for individuals to participate in swimming lessons and various recreational water sports for fitness and socializing?  ",
+   "free": "pool",
+   "vocab": "swimming pool",
+   "vocab_valid": true
+  },
+  "4423": {
+   "question": "What kind of public infrastructure might be adapted to serve as a water reservoir for firefighting in cities vulnerable to wildfires?  ",
+   "free": "reservoir",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "4430": {
+   "question": "What type of recreational center might facilitate athletic development while also fostering community interaction, providing spaces for both exercise and leisure?",
+   "free": "community center",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "4435": {
+   "question": "What location in this vicinity serves as a hub for physical fitness, recreational pursuits, and could contribute to fostering local community ties?  ",
+   "free": "parking lot",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "4449": {
+   "question": "What local recreational venue is available for engaging in fitness and relaxation pursuits when the temperatures rise during summer?",
+   "free": "beach",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "4483": {
+   "question": "Which local venue can you recommend for playing a sport that involves a net and racquets, whether alone or with a partner? ",
+   "free": "courthouse",
+   "vocab": "tennis court",
+   "vocab_valid": true
+  },
+  "4498": {
+   "question": "To enhance your serve and volley skills outdoors, which areas would be most effective for utilizing the marked court lines and net?  ",
+   "free": "court lines",
+   "vocab": "tennis court",
+   "vocab_valid": true
+  },
+  "4547": {
+   "question": "What type of maintenance is necessary for which facility to guarantee player safety and minimize injury risks in recreational sports?  ",
+   "free": "stadium\u573a\u5730",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "4548": {
+   "question": "In what ways might the design of this recreational center affect the safety of visitors during busy community timeframes?  ",
+   "free": "playgrounds",
+   "vocab": "stadium",
+   "vocab_valid": true
+  },
+  "4561": {
+   "question": "What recreational facility within the residential area primarily promotes physical fitness and community interaction among residents, while also requiring safety hazard evaluations due to its active usage?",
+   "free": "fitness center",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "4600": {
+   "question": "Have you considered which venue offers ample space and the right atmosphere for participating in a net-based sport?",
+   "free": "none",
+   "vocab": "none of the provided options directly match the description of",
+   "vocab_valid": false
+  },
+  "4626": {
+   "question": "If you needed to find a place for a community tournament that demands well-defined boundaries and netting, where would you go?  ",
+   "free": "sports field",
+   "vocab": "golf course",
+   "vocab_valid": true
+  },
+  "4799": {
+   "question": "For travelers looking to swiftly arrive at a nearby city, what would be the optimal starting point for their trip?  ",
+   "free": "airport",
+   "vocab": "airport",
+   "vocab_valid": true
+  },
+  "4802": {
+   "question": "When organizing your daily travel routine, which types of infrastructure make it easy to reach various locations effectively?",
+   "free": "road",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "4812": {
+   "question": "In envisioning a new neighborhood designed for daily commutes, what essential infrastructure should be prioritized based on its geographical placement?",
+   "free": "road",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "4820": {
+   "question": "If tasked with designing a regional transport center, what ideal location would you choose for a primary passenger facility?",
+   "free": "airport runway",
+   "vocab": "airport",
+   "vocab_valid": true
+  },
+  "4830": {
+   "question": "If a pivotal transport center were built to enhance connectivity across the region, which facilities might exhibit modern and extensive features?  ",
+   "free": "airport",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "4831": {
+   "question": "When developing a new transportation route in the region, which landmark or facility should be your main focus for improved connectivity?  ",
+   "free": "airport",
+   "vocab": "airport",
+   "vocab_valid": true
+  },
+  "4839": {
+   "question": "In order to enhance regional tourism through public transport, what key areas should the community improve for better connectivity?",
+   "free": "road_network",
+   "vocab": "commercial area",
+   "vocab_valid": true
+  },
+  "4847": {
+   "question": "If you were to design a regional transportation hub, which facility would you choose to be the main link among different modes of travel?  ",
+   "free": "bus_station",
+   "vocab": "airport",
+   "vocab_valid": true
+  },
+  "4865": {
+   "question": "What kinds of designs are implemented at intersections to improve traffic movement and minimize the likelihood of accidents among vehicles?  ",
+   "free": "traffic_signals",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "4867": {
+   "question": "In the event of a notable rise in traffic between two key cities, what infrastructure improvements should be prioritized for effective management?  ",
+   "free": "road",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "4941": {
+   "question": "What specific infrastructure element plays a vital role in averting traffic bottlenecks and maintaining smooth transportation dynamics in this region?  ",
+   "free": "road",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "4957": {
+   "question": "How might an urban planner address traffic issues and enhance the transport network effectiveness in a rapidly developing city?",
+   "free": "road_network",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "4986": {
+   "question": "In the event of a flood, which infrastructure would most effectively maintain continuous transportation through the region shown in the image?  ",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "4991": {
+   "question": "As a city seeks to improve traffic flow and relieve congestion in a rapidly expanding urban community, which elevated areas should feature new roads?",
+   "free": "roadway\u531d\u9053",
+   "vocab": "overpass",
+   "vocab_valid": true
+  },
+  "5009": {
+   "question": "In the event of an unforeseen emergency requiring evacuation, what existing roads or routes could effectively redirect traffic away from congestion?",
+   "free": "roads",
+   "vocab": "freeway",
+   "vocab_valid": true
+  },
+  "5021": {
+   "question": "To effectively reduce traffic congestion while allowing efficient vehicle movement at the intersection of two roads, what infrastructure is essential?  ",
+   "free": "traffic light",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "5026": {
+   "question": "What type of infrastructure is essential for ensuring smooth and continuous vehicle flow across intersections in this region?",
+   "free": "roadway",
+   "vocab": "intersection",
+   "vocab_valid": true
+  },
+  "5045": {
+   "question": "What essential construction enables seamless vehicle movement across natural barriers like rivers and valleys while preserving the landscape below? ",
+   "free": "bridge",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "5064": {
+   "question": "In which areas of this region should we prioritize safety and maintenance efforts to mitigate the risk of environmental contamination, given the presence of industrial sites and water sources?  ",
+   "free": "industrial_sites",
+   "vocab": "industrial area",
+   "vocab_valid": true
+  },
+  "5076": {
+   "question": "What type of infrastructure is crucial for urban wastewater management, usually featuring expansive circular and rectangular basins for treatment? ",
+   "free": "wastewater pond",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "5077": {
+   "question": "What specific site plays a crucial role in the oversight of water supply and the processing of city wastewater to avoid ecological harm?  ",
+   "free": "wastewater treatment plant",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "5088": {
+   "question": "What area would raise your concerns regarding water quality when assessing its impact on local agriculture close to an industrial site?  ",
+   "free": "pond",
+   "vocab": "lake",
+   "vocab_valid": true
+  },
+  "5126": {
+   "question": "What type of facility is tasked with purifying water to guarantee its safety before returning it to nature or using it in farming?  ",
+   "free": "water treatment plant",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "5139": {
+   "question": "In the event of a sudden flood in the area, which facility should be prioritized for protection to prevent contamination?  ",
+   "free": "wells",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "5155": {
+   "question": "What is the specific location of the key facility that processes and purifies wastewater to support environmental management in this region?  ",
+   "free": "wastewater treatment plant",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "5164": {
+   "question": "In the event of flooding due to a storm, which public facilities should be prioritized for inspection to avoid contamination issues?  ",
+   "free": "waterfront facilities",
+   "vocab": "bridge",
+   "vocab_valid": true
+  },
+  "5211": {
+   "question": "In the event of an unforeseen chemical leak nearby, which specific area should we prioritize for contamination surveillance? ",
+   "free": "industrial zone",
+   "vocab": "container crane",
+   "vocab_valid": true
+  },
+  "5247": {
+   "question": "Where might sustainable energy production take place, ensuring a reduced ecological footprint through the implementation of innovative engineering designs?",
+   "free": "wind farm",
+   "vocab": "rectangular farmland",
+   "vocab_valid": true
+  },
+  "5263": {
+   "question": "In what ways does the existence of this facility enhance sustainable energy generation and boost the local economy?",
+   "free": "wind farm",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "5269": {
+   "question": "What role does the implementation of targeted infrastructure in rural settings play in enhancing sustainable energy generation and boosting local economies?  ",
+   "free": "windfarm",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "5276": {
+   "question": "Which kind of structures in expansive landscapes harness wind power, offer renewable energy, and greatly lower carbon footprints in countryside regions?  ",
+   "free": "wind turbine",
+   "vocab": "wind turbine",
+   "vocab_valid": false
+  },
+  "5301": {
+   "question": "What kind of structures are typically placed in exposed and breezy regions to capture renewable energy for eco-friendly power production?  ",
+   "free": "wind turbines",
+   "vocab": "wind turbine",
+   "vocab_valid": false
+  },
+  "5334": {
+   "question": "What kinds of infrastructure are best suited to optimize renewable energy usage and lower carbon footprints in countryside areas?",
+   "free": "wind turbine",
+   "vocab": "storage tank",
+   "vocab_valid": true
+  },
+  "5351": {
+   "question": "What device is known for its ability to effectively transform wind energy into electrical power among the vast landscapes of open fields?",
+   "free": "wind turbine",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  },
+  "5370": {
+   "question": "What type of geographical terrain allows us to maximize renewable energy utilization while reducing the negative effects on nature?",
+   "free": "mountainous",
+   "vocab": "chaparral",
+   "vocab_valid": true
+  },
+  "5401": {
+   "question": "In regions characterized by steady and powerful wind currents, which types of infrastructure can be developed to generate renewable electricity?",
+   "free": "wind farm",
+   "vocab": "wind farm",
+   "vocab_valid": false
+  },
+  "5409": {
+   "question": "What essential infrastructure is needed to effectively capture renewable energy in regions where strong winds prevail and vegetation is scarce?  ",
+   "free": "wind turbine",
+   "vocab": "desert",
+   "vocab_valid": true
+  },
+  "5429": {
+   "question": "In an effort to bolster sustainable energy practices, which types of infrastructure should receive top priority for development and installation?",
+   "free": "wind farm",
+   "vocab": "thermal power station",
+   "vocab_valid": true
+  }
+ }
+}
